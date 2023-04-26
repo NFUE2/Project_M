@@ -15,12 +15,6 @@ public class SceneController : MonoBehaviour
                     Scene_Change();
                 break;
         }
-
-
-
-
-
-
     }
 
     public void Scene_Change()

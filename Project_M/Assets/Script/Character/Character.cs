@@ -13,15 +13,28 @@ public struct Data
 public abstract class Character : MonoBehaviour
 {
     public Data data;
+    float gravity = -9.0f;
 
     public abstract void initSetting();
     public abstract void Attack();
 
-    public virtual void Move()
+    public virtual void Move(bool isgrounded,Rigidbody rigidbody)
     {
-        Debug.Log("¿€µø¡ﬂ");
         float H = Input.GetAxis("Horizontal");
-        Debug.Log(H);
         transform.position += (Vector3.right * H * 5.0f) * Time.deltaTime;
+
+        //if(isgrounded && Input.GetKeyDown(KeyCode.A))
+            //rigidbody.AddForce();
     }
+
+    public bool IsGrounded(Vector3 Pos)
+    {
+        Ray ray = new Ray(Pos + (Vector3.up * 0.2f),Vector3.down);
+
+        if (Physics.Raycast(ray, 0.5f, LayerMask.GetMask("Ground")))
+            return true;
+        else
+            return false;
+    }
+
 }

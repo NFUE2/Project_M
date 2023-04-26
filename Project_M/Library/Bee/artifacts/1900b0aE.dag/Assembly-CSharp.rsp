@@ -346,15 +346,15 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/GUI PRO Kit - Casual Game/Scripts/PanelCasualGame.cs"
-"Assets/GUI PRO Kit - Casual Game/Scripts/PanelControlCasualGame.cs"
 "Assets/Script/Character/Character.cs"
 "Assets/Script/Character/Character_Controller.cs"
-"Assets/Script/Character/Gunman.cs"
-"Assets/Script/Character/Magician.cs"
-"Assets/Script/Character/Viking.cs"
+"Assets/Script/Character/Player/Gunman.cs"
+"Assets/Script/Character/Player/Magician.cs"
+"Assets/Script/Character/Player/Viking.cs"
 "Assets/Script/GameManager.cs"
 "Assets/Script/SceneController.cs"
+"Assets/Script/Select_Character.cs"
+"Assets/Script/Stage_Camera.cs"
 -langversion:9.0
 
 /deterministic
