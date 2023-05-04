@@ -11,8 +11,9 @@ public class SceneController : MonoBehaviour
         switch(SceneManager.GetActiveScene().buildIndex)
         {
             case 0 : case 1 :
-                if (Input.anyKeyDown)
+                if (Input.GetKeyDown(KeyCode.Return))
                     Scene_Change();
+
                 break;
         }
     }

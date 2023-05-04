@@ -10,6 +10,6 @@ public class Gunman : Character
 
     public override void initSetting()
     {
-        Debug.Log("¤¾¤·");
+    
     }
 }

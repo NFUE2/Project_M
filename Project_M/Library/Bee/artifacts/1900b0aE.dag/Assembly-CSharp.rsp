@@ -352,6 +352,7 @@
 "Assets/Script/Character/Player/Magician.cs"
 "Assets/Script/Character/Player/Viking.cs"
 "Assets/Script/GameManager.cs"
+"Assets/Script/map_editor/Map_Editor.cs"
 "Assets/Script/SceneController.cs"
 "Assets/Script/Select_Character.cs"
 "Assets/Script/Stage_Camera.cs"

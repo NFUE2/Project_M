@@ -11,5 +11,18 @@ public class Viking : Character
 
     public override void initSetting()
     {
+        data.hp = 1.0f;
+        data.speed = 10.0f;
+        data.damage = 1.0f;
+    }
+
+    public override void Move(Rigidbody rigidbody,bool isgrounded)
+    {
+        base.Move(rigidbody, isgrounded);
+    }
+
+    public override bool IsGrounded(Vector3 Pos)
+    {
+        return base.IsGrounded(Pos);
     }
 }

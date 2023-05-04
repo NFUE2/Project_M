@@ -5,7 +5,6 @@ using UnityEngine;
 public class Character_Controller : MonoBehaviour
 {
     public Character character;
-    bool isgrounded = false;
     public Rigidbody rigidbody;
 
     private void Start()
@@ -15,11 +14,10 @@ public class Character_Controller : MonoBehaviour
 
     private void Update()
     {
-        isgrounded = character.IsGrounded(transform.position);
     }
 
     private void FixedUpdate()
     {
-        character.Move(isgrounded,rigidbody);
+        character.Move(rigidbody, character.IsGrounded(transform.position));
     }
 }
