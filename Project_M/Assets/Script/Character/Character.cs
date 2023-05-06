@@ -20,25 +20,22 @@ public abstract class Character : MonoBehaviour
         float H = Input.GetAxis("Horizontal");
         transform.position += (Vector3.right * H * data.speed) * Time.deltaTime;
 
-        if (isgrounded && Input.GetAxis("Jump") == 1.0f)
+        //Debug.Log(isgrounded);
+        if (Input.GetAxis("Jump") == 1.0f)
         {
-            rigidbody.AddForce(Vector3.up * 10.0f,ForceMode.Impulse);
+            Debug.Log("มกวม");
+            rigidbody.AddForce(Vector3.up * 5.0f,ForceMode.Impulse);
         }
-
-        if (transform.position.y > 4f)
-            rigidbody.useGravity = true;
-        else if(transform.position.y <= 1f)
-            rigidbody.useGravity = false;
-
     }
     public virtual void Attack()
     {
 
     }
 
-    public virtual  bool IsGrounded(Vector3 Pos)
+    public bool IsGrounded(Vector3 Pos)
     {
-        Ray ray = new Ray(Pos + (Vector3.up * 0.2f),Vector3.down);
+        Ray ray = new Ray(Pos + (Vector3.up * 0.2f),Pos + Vector3.down * 1.1f);
+
         if (Physics.Raycast(ray, 0.5f, LayerMask.GetMask("Ground")))
             return true;
         else
