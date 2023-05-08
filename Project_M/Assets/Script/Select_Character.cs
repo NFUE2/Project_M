@@ -14,8 +14,8 @@ public class Select_Character : MonoBehaviour
     int choice_num = 0;
 
     public Vector2 canvas_Pos;
-
     #endregion 
+
     private void Start()
     {
         canvas_Pos = gameObject.transform.parent.GetComponent<CanvasScaler>().referenceResolution;

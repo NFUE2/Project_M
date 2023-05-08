@@ -9,15 +9,18 @@ public class Viking : Character
         throw new System.NotImplementedException();
     }
 
+    //캐릭터의 기본 데이터 설정
     public override void initSetting()
     {
         data.hp = 1.0f;
         data.speed = 10.0f;
         data.damage = 1.0f;
+        data.jumping = false;
     }
 
-    public override void Move(Rigidbody rigidbody,bool isgrounded)
+    public override void Move()
     {
-        base.Move(rigidbody, isgrounded);
+        //부모의 Move함수를 작동
+        base.Move();
     }
 }
