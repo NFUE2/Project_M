@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Gunman : Character
 {
-    public override void Attack()
+    public override void Attack(GameObject projectile, GameObject fire_pos)
     {
+        
     }
 
-    public override void initSetting()
+    public override void initSetting(Animator animator)
     {
-    
+
     }
 }
