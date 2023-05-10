@@ -9,7 +9,7 @@ public class Gunman : Character
         
     }
 
-    public override void initSetting(Animator animator)
+    public override void initSetting()
     {
 
     }

@@ -6,17 +6,23 @@ public class Viking : Character
 {
     public override void Attack(GameObject projectile, GameObject fire_pos)
     {
-        base.Attack(projectile, fire_pos);
+        //Debug.Log("공격");
+        //base.Attack(projectile, fire_pos);
     }
 
     //캐릭터의 기본 데이터 설정
-    public override void initSetting(Animator animator)
+    public override void initSetting()
     {
         data.user = User.Player;
-        data.animator = animator;
+
+        data.animator = gameObject.GetComponent<Animator>();
+
         data.hp = 1.0f;
         data.speed = 10.0f;
         data.damage = 1.0f;
+
+        data.charging = 0.0f;
+
         data.jumping = false;
     }
 
@@ -27,7 +33,7 @@ public class Viking : Character
     }
 
     //애니메이션 이벤트를 이용하여 적에게 데미지를 줌
-    public void Damage()
+    public override void Damage()
     {
         //해당 범위내의 모든 적들에게 데미지를 입힘
         foreach (Collider col in Physics.OverlapBox
@@ -38,6 +44,7 @@ public class Viking : Character
         {
             //해당 개체의 스크립트를 참조하여 데미지(체력감소)
             col.GetComponent<Character_Controller>().character.data.hp -= data.damage;
+            Debug.Log("플레이어 공격성공");
         }
     }
 }

@@ -8,10 +8,8 @@ public class Magician : Character
     {
 
     }
-    public override void initSetting(Animator animator)
-
+    public override void initSetting()
     {
-        throw new System.NotImplementedException();
     }
 
     public override void Move()
