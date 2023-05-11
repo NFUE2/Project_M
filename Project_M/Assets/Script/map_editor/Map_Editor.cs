@@ -12,7 +12,6 @@ public class Map_Editor : EditorWindow
     Stack<GameObject> created_tile;
     GameObject maplist;
 
-
     string[] button_list = { "create", "back", "skip","up","reset" };
 
     float offset_x = 0.0f;
@@ -141,7 +140,6 @@ public class Map_Editor : EditorWindow
         DestroyImmediate(created_tile.Peek());
         created_tile.Pop();
     }
-
     void set_tile_in_stack()
     {
         for (int i = 0; i < maplist.transform.childCount; i++)

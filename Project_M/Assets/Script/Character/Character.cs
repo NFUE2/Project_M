@@ -27,6 +27,7 @@ public struct Data
     public float charging; //플레이어의 차징 시간
 
     public float attack_distance; //몬스터 공격거리
+    public bool player_search; //몬스터의 플레이어를 탐지유무
 
     public bool jumping; //점프중인지 아닌지 판별할 bool 변수
 }
@@ -52,7 +53,18 @@ public abstract class Character : MonoBehaviour
     public virtual void monsterAction() { }
 
     //근접캐릭터들이 데미지를 주기 위한 함수
-    public virtual void Damage() { }
+    public virtual void Damage(string layer)
+    {
+        foreach (Collider col in Physics.OverlapBox
+            (transform.position + transform.right,
+            new Vector3(0.5f, 0.5f, 0f),
+            Quaternion.Euler(0, 0, 0),
+            LayerMask.GetMask(layer))) //int로 사용하려햇으나 작동을 안했음,Enemy의 레이어는 12번
+        {
+            //해당 개체의 스크립트를 참조하여 데미지(체력감소)
+            col.GetComponent<Character_Controller>().character.data.hp -= data.damage;
+        }
+    }
 
     public virtual void Charging_Attack(GameObject projectile, GameObject fire_pos) { }
 
@@ -71,7 +83,7 @@ public abstract class Character : MonoBehaviour
 
         //키 입력에 따른 캐릭터의 시선 방향전환
         if(H != 0)
-            transform.rotation = H > 0.0f ? Quaternion.Euler(0, 0, 0) : Quaternion.Euler(0, 180, 0);
+            transform.rotation = H > 0.0f ? Quaternion.Euler(0, 90, 0) : Quaternion.Euler(0, 270, 0);
 
         //캐릭터가 바닥에 닿아있고 점프키가 눌려진다면 작동함
         if (!data.jumping && Input.GetAxis("Jump") == 1.0f)

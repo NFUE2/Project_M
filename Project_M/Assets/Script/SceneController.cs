@@ -14,7 +14,6 @@ public class SceneController : MonoBehaviour
             case 0 : case 1 :
                 if (Input.GetKeyDown(KeyCode.Return))
                     StartCoroutine(Scene_Change(0.0f));
-                //Scene_Change();
                 break;
 
             case 2:
@@ -24,13 +23,13 @@ public class SceneController : MonoBehaviour
         }
     }
 
-    //씬을 변경하기위한 함수
+    //씬을 변경하기위한 함수,지연시간을 받고 그 뒤에 씬을 변경
     IEnumerator Scene_Change(float time)
     {
         yield return new WaitForSeconds(time);
 
         //내가 바꿀씬이 빌드씬세팅에서의 갯수보다 작다면 변경해줌
-            if (SceneManager.sceneCountInBuildSettings > SceneManager.GetActiveScene().buildIndex + 1)
+        if (SceneManager.sceneCountInBuildSettings > SceneManager.GetActiveScene().buildIndex + 1)
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }
