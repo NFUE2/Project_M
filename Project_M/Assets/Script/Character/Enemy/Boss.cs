@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Boss : Character
 {
-    public override void initSetting()
+    public override void initSetting(Vector3 fire_pos, GameObject projectile)
     {
         data.user = User.Com;
 
@@ -22,19 +22,23 @@ public class Boss : Character
         data.attack_distance = 1.5f;
     }
 
-    public override void Attack(GameObject projectile, GameObject fire_pos)
+    public override void Long_Range_Attack()
     {
+
     }
 
-    public override void Damage(string layer)
+    public override void Close_Range_Attack(string layer)
     {
+
     }
 
-    public override void monsterAction()
+    public override void Monster_Action()
     {
+
     }
 
     public override void Move()
     {
+
     }
 }

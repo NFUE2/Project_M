@@ -116,6 +116,7 @@
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
+-r:"Assets/plugin/MySql.Data.dll"
 -r:"D:/Program Files (x86)/GitHub/Project_M/Project_M/Library/PackageCache/com.unity.testtools.codecoverage@1.2.2/lib/ReportGenerator/ReportGeneratorMerged.dll"
 -r:"D:/Program Files (x86)/GitHub/Project_M/Project_M/Library/PackageCache/com.unity.visualscripting@1.8.0/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
 -r:"D:/Program Files (x86)/Unity/2021.3.23f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll"
@@ -355,9 +356,13 @@
 "Assets/Script/Character/Player/Gunman.cs"
 "Assets/Script/Character/Player/Magician.cs"
 "Assets/Script/Character/Player/Viking.cs"
-"Assets/Script/GameManager.cs"
+"Assets/Script/manager/GameManager.cs"
+"Assets/Script/manager/Manager.cs"
+"Assets/Script/manager/Manager_Controller.cs"
+"Assets/Script/manager/Ranking_manager.cs"
+"Assets/Script/manager/SceneController.cs"
+"Assets/Script/manager/Stage_Manager.cs"
 "Assets/Script/map_editor/Map_Editor.cs"
-"Assets/Script/SceneController.cs"
 "Assets/Script/Select_Character.cs"
 "Assets/Script/Stage_Camera.cs"
 -langversion:9.0

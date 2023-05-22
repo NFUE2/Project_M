@@ -8,7 +8,7 @@ public class Enemy1 : Character
     [Range(0.0f,30.0f)] //캐릭터별로 탐지범위를 달리하기위해 범위설정
     public float search_distance; //몬스터 탐지거리
 
-    public override void initSetting()
+    public override void initSetting(Vector3 fire_pos, GameObject projectile)
     {
         data.user = User.Com;
 
@@ -27,7 +27,7 @@ public class Enemy1 : Character
         data.attack_distance = 1.5f;
     }
 
-    public override void monsterAction()
+    public override void Monster_Action()
     {
         //플레이어와 캐릭터 사이의 거리
         float distance = Vector3.Distance(data.Player.transform.position, transform.position); 
@@ -39,7 +39,7 @@ public class Enemy1 : Character
             Move();
         //공격범위 안에 들어오고 공격기회가 있을때 공격
         else if (distance <= data.attack_distance && data.attack_timing >= data.attack_delay)
-            Attack(null, null);
+            base.Close_Range_Attack("Player");
     }
 
     //몬스터가 캐릭터의 방향으로 이동
@@ -53,14 +53,8 @@ public class Enemy1 : Character
         transform.position += dir.normalized * data.speed * Time.deltaTime; //플레이어 방향으로 이동
     }
 
-    public override void Attack(GameObject projectile, GameObject fire_pos)
+    public override void Long_Range_Attack()
     {
-        base.Attack(projectile,fire_pos);
-        Debug.Log("공격");
-    }
-
-    public override void Damage(string layer)
-    {
-        base.Damage("Player");
+        base.Long_Range_Attack();
     }
 }

@@ -1,0 +1,518 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'ko' Physical Memory: 16336 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files (x86)\Unity\2021.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Program Files (x86)/GitHub/Project_M/Project_M
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+54892
+Successfully changed project path to: D:/Program Files (x86)/GitHub/Project_M/Project_M
+D:/Program Files (x86)/GitHub/Project_M/Project_M
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [14004] Host "[IP] 112.185.117.167 [Port] 0 [Flags] 2 [Guid] 3613537774 [EditorId] 3613537774 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IS8DQUP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [14004] Host "[IP] 112.185.117.167 [Port] 0 [Flags] 2 [Guid] 3613537774 [EditorId] 3613537774 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IS8DQUP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 133.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.23f1 (213b516bf396)
+[Subsystems] Discovering subsystems at path D:/Program Files (x86)/Unity/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Program Files (x86)/GitHub/Project_M/Project_M/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
+    Vendor:   NVIDIA
+    VRAM:     6043 MB
+    Driver:   31.0.15.3141
+Initialize mono
+Mono path[0] = 'D:/Program Files (x86)/Unity/2021.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files (x86)/Unity/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files (x86)/Unity/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files (x86)/Unity/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.028127 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1153.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.231 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2232ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1782ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (1462ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1154ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (97ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016138 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\GitHub\Project_M\Project_M\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\GitHub\Project_M\Project_M\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.248 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2253ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1897ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (373ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (1264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (287ms)
+				ProcessInitializeOnLoadMethodAttributes (125ms)
+				AfterProcessingInitializeOnLoad (691ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3122 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (114.7 KB). Loaded Objects now: 3583.
+Memory consumption went from 120.1 MB to 120.0 MB.
+Total: 5.660100 ms (FindLiveObjects: 0.268700 ms CreateObjectMapping: 0.191500 ms MarkObjects: 5.070100 ms  DeleteObjects: 0.128600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 248648.066023 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8affd471338fd2d76efdcf2138782aaf') in 0.086771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.158599 seconds.
+  path: Assets/Animation/X Bot@Standing React Death Backward.fbx
+  artifactKey: Guid(e88b893feb7304549a9a92de9c616522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/X Bot@Standing React Death Backward.fbx using Guid(e88b893feb7304549a9a92de9c616522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16909d2987ee4f713c68e8ff6882b65') in 0.108120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.697239 seconds.
+  path: Assets/Animation/X Bot@Two Handed Sword Death.fbx
+  artifactKey: Guid(3cba20c475ba16f448a02ebbac3d523c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/X Bot@Two Handed Sword Death.fbx using Guid(3cba20c475ba16f448a02ebbac3d523c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0484597b48c0f1a08c252ee17fdcd6e9') in 0.017754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.982335 seconds.
+  path: Assets/Animation/X Bot@Standing React Death Backward.fbx
+  artifactKey: Guid(e88b893feb7304549a9a92de9c616522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/X Bot@Standing React Death Backward.fbx using Guid(e88b893feb7304549a9a92de9c616522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e576438506eb4328740f2cd1ba6a6c9') in 0.016052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.915404 seconds.
+  path: Assets/Animation/X Bot@Two Handed Sword Death.fbx
+  artifactKey: Guid(3cba20c475ba16f448a02ebbac3d523c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/X Bot@Two Handed Sword Death.fbx using Guid(3cba20c475ba16f448a02ebbac3d523c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d8e9898f5dd8d525deaad9e155ae0b') in 0.023503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.082941 seconds.
+  path: Assets/Animation/X Bot@Two Handed Sword Death.fbx
+  artifactKey: Guid(3cba20c475ba16f448a02ebbac3d523c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/X Bot@Two Handed Sword Death.fbx using Guid(3cba20c475ba16f448a02ebbac3d523c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08b4948fc76c52b1e4ce0038ae82b64') in 0.023670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.831237 seconds.
+  path: Assets/Animation/X Bot@Standing React Death Backward.fbx
+  artifactKey: Guid(e88b893feb7304549a9a92de9c616522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/X Bot@Standing React Death Backward.fbx using Guid(e88b893feb7304549a9a92de9c616522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e4dd8e516d6be85ca84496586c6c453') in 0.024037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 119.104869 seconds.
+  path: Assets/Animation/player/Magician.controller
+  artifactKey: Guid(7fd65d499f4919f41aeb5c8e55abc59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Magician.controller using Guid(7fd65d499f4919f41aeb5c8e55abc59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4db41e02d4674b741d582c777d2b70c') in 0.733976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.462821 seconds.
+  path: Assets/Animation/player/gunman/mixamo.com.anim
+  artifactKey: Guid(9679ebbeacedef347b2a946070c02fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/gunman/mixamo.com.anim using Guid(9679ebbeacedef347b2a946070c02fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ab39e36c6236349540827bbc967348') in 0.027694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.691833 seconds.
+  path: Assets/Animation/player/gunman/gunman_idle.anim
+  artifactKey: Guid(9679ebbeacedef347b2a946070c02fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/gunman/gunman_idle.anim using Guid(9679ebbeacedef347b2a946070c02fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d0a1d68dab397bc73c9d191140356a') in 0.023173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.388512 seconds.
+  path: Assets/Animation/player/gunman/mixamo.com.anim
+  artifactKey: Guid(8cd3ee741ab80df469bd96d9975b1653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/gunman/mixamo.com.anim using Guid(8cd3ee741ab80df469bd96d9975b1653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a34bb13525eeb709fd9312240161cb1') in 0.081998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.967272 seconds.
+  path: Assets/Animation/player/gunman/mixamo.com 1.anim
+  artifactKey: Guid(0fb882cdbf48e8247b11b0e5c39d827e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/gunman/mixamo.com 1.anim using Guid(0fb882cdbf48e8247b11b0e5c39d827e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00475997c71715d8ef074034b020790f') in 0.075481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.287878 seconds.
+  path: Assets/Animation/player/gunman/gunman_idle.anim
+  artifactKey: Guid(0fb882cdbf48e8247b11b0e5c39d827e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/gunman/gunman_idle.anim using Guid(0fb882cdbf48e8247b11b0e5c39d827e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a725b2b39652021230ded55aa769a157') in 0.068644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.530674 seconds.
+  path: Assets/Animation/player/gunman/mixamo.com.anim
+  artifactKey: Guid(8cd3ee741ab80df469bd96d9975b1653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/gunman/mixamo.com.anim using Guid(8cd3ee741ab80df469bd96d9975b1653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19331d8f6fb42a76b8828eb20e21a21e') in 0.015560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.647476 seconds.
+  path: Assets/Animation/player/gunman/gunman_jump.fbx
+  artifactKey: Guid(d1cbad5f8f04dad43a86a157d90e51c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/gunman/gunman_jump.fbx using Guid(d1cbad5f8f04dad43a86a157d90e51c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7448bcccc5fff3685746cff6c86a6885') in 0.019726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Animation/player/gunman/gunman_shot.fbx
+  artifactKey: Guid(5ff86b1052e42c74e8e4825b675b326a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/gunman/gunman_shot.fbx using Guid(5ff86b1052e42c74e8e4825b675b326a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8032e87377e6ceaf9ebbd9c84b2c2804') in 0.033312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Animation/player/gunman/gunman_run.fbx
+  artifactKey: Guid(7b08b559ef57b5b4fa68368060833db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/gunman/gunman_run.fbx using Guid(7b08b559ef57b5b4fa68368060833db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa6ea33a572f92e5e577f9a5dfe415d') in 0.014936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.513427 seconds.
+  path: Assets/Animation/player/gunman/gunman_jump.fbx
+  artifactKey: Guid(d1cbad5f8f04dad43a86a157d90e51c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/gunman/gunman_jump.fbx using Guid(d1cbad5f8f04dad43a86a157d90e51c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9f6a35f4ae95a09ba877e22236a2e3') in 0.015419 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.600467 seconds.
+  path: Assets/Animation/player/gunman/gunman_run.fbx
+  artifactKey: Guid(7b08b559ef57b5b4fa68368060833db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/gunman/gunman_run.fbx using Guid(7b08b559ef57b5b4fa68368060833db7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69db49a13a84e3dd91d8de7669e6c15') in 0.022973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.466729 seconds.
+  path: Assets/Animation/player/gunman/gunman_shot.fbx
+  artifactKey: Guid(5ff86b1052e42c74e8e4825b675b326a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/gunman/gunman_shot.fbx using Guid(5ff86b1052e42c74e8e4825b675b326a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dc262715bdf838069481f823238d603') in 0.012803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.143773 seconds.
+  path: Assets/Animation/player/gunman/mixamo.com.anim
+  artifactKey: Guid(8cd3ee741ab80df469bd96d9975b1653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/gunman/mixamo.com.anim using Guid(8cd3ee741ab80df469bd96d9975b1653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2afc3169ae4d8efe3f5f802da33722') in 0.023283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.729966 seconds.
+  path: Assets/Animation/player/gunman/mixamo.com 1.anim
+  artifactKey: Guid(b440f06aad14dd944996dfb7bccde611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/gunman/mixamo.com 1.anim using Guid(b440f06aad14dd944996dfb7bccde611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b6f3885cbbc694a25b4a4bbb8fcd6f') in 0.016259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.739581 seconds.
+  path: Assets/Animation/player/gunman/mixamo.com 2.anim
+  artifactKey: Guid(2d323866f47ee874d97a9f922ac8bfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/gunman/mixamo.com 2.anim using Guid(2d323866f47ee874d97a9f922ac8bfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878c62a6637bac5de051d62345cb66c6') in 0.034141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.458066 seconds.
+  path: Assets/Animation/player/gunman/gunman_run.anim
+  artifactKey: Guid(b440f06aad14dd944996dfb7bccde611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/gunman/gunman_run.anim using Guid(b440f06aad14dd944996dfb7bccde611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adde0fe8f5f09da0d44526786885be02') in 0.024496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.485896 seconds.
+  path: Assets/Animation/player/gunman/gunman_shoot.anim
+  artifactKey: Guid(2d323866f47ee874d97a9f922ac8bfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/gunman/gunman_shoot.anim using Guid(2d323866f47ee874d97a9f922ac8bfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fb5c946a506e492c5f35d5525cde3b') in 0.034115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.086036 seconds.
+  path: Assets/Animation/player/gunman/gunman_jump.anim
+  artifactKey: Guid(8cd3ee741ab80df469bd96d9975b1653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/gunman/gunman_jump.anim using Guid(8cd3ee741ab80df469bd96d9975b1653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfd4bbb2d5b1db4ded2b99ff2b4795f') in 0.024718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.945010 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074350a94051f2cc78905ddd19fe4873') in 0.125928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.762900 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d861ec358f54b8cebbefe3a31c25aec') in 0.100916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.763092 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d1f2c966fa06da8beab05e48da38c1') in 0.095305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.560693 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a0f25f3047fdae1dbada1fecd807ef') in 0.086819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.469488 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b224365c7c9fab22dee88a48a0f59453') in 0.085423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.703684 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '997f67dd488c5927865f6c1576f13ba2') in 0.096004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 205.918630 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba653a92c3b26a4c5410c16852ff0324') in 0.091564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.641808 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8d14eac81842c433f3a63170c107a0') in 0.108111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.730146 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497f259e22b851f5127472f20c4d5dca') in 0.100510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.863630 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb25469bbc1c337597e6ce43da0698e') in 0.172926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 140.296465 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcd10d0dd8f319bf50b921548e8a52fa') in 0.103426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 101.009650 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22c7d6ce45382d79ae2dd99dea9d3d3c') in 0.085122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 67.674700 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09c62af6fc3f6db9064e979595272bdc') in 0.095932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.231583 seconds.
+  path: Assets/Animation/Upper body 1.mask
+  artifactKey: Guid(ea41a2180fd04124da1736caaf5eac9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Upper body 1.mask using Guid(ea41a2180fd04124da1736caaf5eac9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18107dbc1a67e645195525a42df4c519') in 0.011392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.579105 seconds.
+  path: Assets/Animation/Downner body.mask
+  artifactKey: Guid(ef19d71e4ae0d1a41b23b00c38bb1d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Downner body.mask using Guid(ef19d71e4ae0d1a41b23b00c38bb1d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfd21bed7f599581a0c5408858d2707') in 0.017143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.727322 seconds.
+  path: Assets/Animation/lower body.mask
+  artifactKey: Guid(ef19d71e4ae0d1a41b23b00c38bb1d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/lower body.mask using Guid(ef19d71e4ae0d1a41b23b00c38bb1d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7a41d1588e3ce8c7ad970d2664185f') in 0.019316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.933398 seconds.
+  path: Assets/Animation/lower body.mask
+  artifactKey: Guid(ef19d71e4ae0d1a41b23b00c38bb1d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/lower body.mask using Guid(ef19d71e4ae0d1a41b23b00c38bb1d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559a03e647bbd21048b9a353370e8377') in 0.006997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.773738 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309196d43c673aa0b3867ad8a3f8df7e') in 0.096917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.454990 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ae28c92c6f3c2c6794418cad72455d') in 0.106171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.520195 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14eb60bf691bb9b51c2f219ee17ac61') in 0.087935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.789918 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53e0a94feb8ac556aa0a7237b922c96b') in 0.089344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.585148 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22ea9b5108f9a31ea17de3272cc7fbe') in 0.092691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.195419 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da827cffc6509774e6d9e64c837f8ee') in 0.094644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.205219 seconds.
+  path: Assets/Animation/player/Gunman.controller
+  artifactKey: Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Gunman.controller using Guid(df57038568dc4314bb8209287daffcdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952cef3ef4670a66e5e15ee9509727c9') in 0.090435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.317600 seconds.
+  path: Assets/Animation/player/New Animator Controller.controller
+  artifactKey: Guid(6a2ad9ca2ccb5c2469efb7f682cc96de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/New Animator Controller.controller using Guid(6a2ad9ca2ccb5c2469efb7f682cc96de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd4c356bad2c3c70bad17c2e689d1ef') in 0.011069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.020966 seconds.
+  path: Assets/Animation/player/Magician.controller
+  artifactKey: Guid(6a2ad9ca2ccb5c2469efb7f682cc96de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/Magician.controller using Guid(6a2ad9ca2ccb5c2469efb7f682cc96de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0550bb93d89da92415d759ba268880fc') in 0.012860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.455469 seconds.
+  path: Assets/Animation/player/magician/Mage@Attack1.FBX
+  artifactKey: Guid(e0407e10e5236144984761ce61e43b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/magician/Mage@Attack1.FBX using Guid(e0407e10e5236144984761ce61e43b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa57cda9340612ee19717bc4925fd7cb') in 0.020712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animation/player/magician/Mage@Fall.FBX
+  artifactKey: Guid(5dfda931e6361604dba27d3f8c6fa164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/magician/Mage@Fall.FBX using Guid(5dfda931e6361604dba27d3f8c6fa164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '732ccfe3370a2272ed8a401bc0cfc0b2') in 0.021514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Animation/player/magician/Mage@Run.FBX
+  artifactKey: Guid(cdf2fa300e344b24ca7057a18e048640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/magician/Mage@Run.FBX using Guid(cdf2fa300e344b24ca7057a18e048640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3208768f682afa8261be88639094b4') in 0.033912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animation/player/magician/Mage@Idle.FBX
+  artifactKey: Guid(ed53813cc30571a4db40dc4fa0cc1d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/magician/Mage@Idle.FBX using Guid(ed53813cc30571a4db40dc4fa0cc1d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ebc68d7d37b9f7797160b48984f557') in 0.018818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Animation/player/magician/Mage@Jump.FBX
+  artifactKey: Guid(8b0a4fc44db02854b92eff2be0b34025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/magician/Mage@Jump.FBX using Guid(8b0a4fc44db02854b92eff2be0b34025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ade87ddf02f32682add28bc0696aedf') in 0.021456 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 318.333009 seconds.
+  path: Assets/Animation/player/magician/Crossbow@Attack1.FBX
+  artifactKey: Guid(a0e5774cc539642408fcacc36838fa3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/magician/Crossbow@Attack1.FBX using Guid(a0e5774cc539642408fcacc36838fa3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b4b7ddeb5fc2adb0f7e3c31f4e0e13') in 0.017049 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.691890 seconds.
+  path: Assets/Animation/player/magician/Crossbow@Attack1.FBX
+  artifactKey: Guid(a0e5774cc539642408fcacc36838fa3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/player/magician/Crossbow@Attack1.FBX using Guid(a0e5774cc539642408fcacc36838fa3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5cf7e61ffa1ce9c78aa39f91268022') in 0.030423 seconds 

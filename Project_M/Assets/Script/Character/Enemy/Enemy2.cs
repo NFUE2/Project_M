@@ -11,7 +11,7 @@ public class Enemy2 : Character
     Vector3 origin_Pos; //캐릭터의 초기위치
     Vector3 Dir = Vector3.left;
 
-    public override void initSetting()
+    public override void initSetting(Vector3 fire_pos, GameObject projectile)
     {
         data.user = User.Com;
 
@@ -33,21 +33,15 @@ public class Enemy2 : Character
         transform.rotation = Quaternion.Euler(0, 270, 0);
     }
 
-    public override void Attack(GameObject projectile, GameObject fire_pos)
-    {
-    }
-
-    public override void Damage(string layer)
-    {
-        base.Damage("Player");
-    }
-
-    public override void monsterAction()
+    public override void Monster_Action()
     {
         float distance = Vector3.Distance(data.Player.transform.position, transform.position);
 
         if (distance <= data.attack_distance && data.attack_delay < data.attack_timing)
-            Attack(null, null);
+        {
+            base.Close_Range_Attack("Player");
+            Debug.Log("공격");
+        }
 
         else
         {
@@ -58,14 +52,12 @@ public class Enemy2 : Character
 
             transform.position += Dir.normalized * data.speed * Time.deltaTime;
         }
-        Debug.Log(data.player_search);
     }
 
     public override void Move()
     {
         Dir = data.Player.transform.position - transform.position;
         Dir.y = 0.0f;
-        Debug.Log("이동");
     }
 
     private void Rally_Point()

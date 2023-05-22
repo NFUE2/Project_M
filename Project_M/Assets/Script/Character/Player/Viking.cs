@@ -4,14 +4,8 @@ using UnityEngine;
 
 public class Viking : Character
 {
-    public override void Attack(GameObject projectile, GameObject fire_pos)
-    {
-        //Debug.Log("공격");
-        //base.Attack(projectile, fire_pos);
-    }
-
     //캐릭터의 기본 데이터 설정
-    public override void initSetting()
+    public override void initSetting(Vector3 fire_pos, GameObject projectile)
     {
         data.user = User.Player;
 
@@ -21,7 +15,7 @@ public class Viking : Character
         data.speed = 10.0f;
         data.damage = 1.0f;
 
-        data.charging = 0.0f;
+        //data.charging = 0.0f;
 
         data.jumping = false;
     }
@@ -30,11 +24,5 @@ public class Viking : Character
     {
         //부모의 Move함수를 작동
         base.Move();
-    }
-
-    //애니메이션 이벤트를 이용하여 적에게 데미지를 줌
-    public override void Damage(string layer)
-    {
-        base.Damage("Enemy");
     }
 }
