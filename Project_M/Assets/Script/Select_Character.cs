@@ -25,6 +25,9 @@ public class Select_Character : MonoBehaviour
             //가져온 캐릭터들을 복사해서 씬에 생성,생성하는 이유는 썸네일을 만들기위함
             GameObject player_obj = Instantiate((GameObject)character[i]);
 
+            if (player_obj.GetComponent<CharacterController>() != null)
+                player_obj.GetComponent<CharacterController>().enabled = false;
+
             //유니티 프로젝트의 미리보기를 이미지로 사용하는방법
             Texture2D texture = AssetPreview.GetAssetPreview(player_obj);
             thumnail[i].sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), new Vector2(0.5f, 0.5f));
@@ -36,18 +39,10 @@ public class Select_Character : MonoBehaviour
     {
         //엔터키를 누르면 선택한 캐릭터를 복제하고 삭제되지않게함
         if(Input.GetKeyDown(KeyCode.Return))
-        {
-            //GameObject player = Instantiate((GameObject)character[choice_num]); //캐릭터복제
-            //player.name = "Player"; //캐릭터의 이름변경
-
-            //player.transform.localScale = new Vector3(2, 2, 2); //캐릭터 크기 변경
-            //player.transform.position = new Vector3(0, 0, 0); //캐릭터의 처음 위치
-            //player.transform.rotation = Quaternion.Euler(0, 90, 0); //캐릭터의 방향 조정
-            //DontDestroyOnLoad(player); //캐릭터를 삭제되지않게 변경
-        }
+            GameManager.instance.P_player = (GameObject)character[choice_num];
 
         //캐릭터를 정했으면 더 이상 작동못하게 함
-        if (GameObject.Find("Player") != null)
+        if (GameManager.instance.P_player != null)
             return;
 
         //캐릭터를 정할수있게 방향키를 입력하여 선택하는 코드

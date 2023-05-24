@@ -20,6 +20,13 @@ public class SceneController : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.Return))
                     StartCoroutine(Scene_Change(3.0f));
                 break;
+            case 3:
+                if (!GameManager.instance.P_player_survive)
+                    StartCoroutine(Scene_Change(5.0f));
+                break;
+            //case 4:
+
+
         }
     }
 
@@ -31,5 +38,7 @@ public class SceneController : MonoBehaviour
         //³»°¡ ¹Ù²Ü¾ÀÀÌ ºôµå¾À¼¼ÆÃ¿¡¼­ÀÇ °¹¼öº¸´Ù ÀÛ´Ù¸é º¯°æÇØÁÜ
         if (SceneManager.sceneCountInBuildSettings > SceneManager.GetActiveScene().buildIndex + 1)
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        else if (SceneManager.GetActiveScene().buildIndex == 4)
+            SceneManager.LoadScene(0);
     }
 }

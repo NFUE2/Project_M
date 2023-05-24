@@ -4,7 +4,6 @@ using UnityEngine;
 
 public abstract class Manager : MonoBehaviour
 {
-    public abstract void Manager_Update();
-
-
+    public virtual void Manager_Start() { }
+    public virtual void Manager_Update() { }
 }

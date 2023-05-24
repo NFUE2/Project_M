@@ -10,13 +10,13 @@ public class Stage_Camera : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //player = GameObject.Find("Player");
+        player = GameObject.Find("Player");
         origin = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //transform.position = player.transform.position + origin;
+        transform.position = player.transform.position + origin;
     }
 }

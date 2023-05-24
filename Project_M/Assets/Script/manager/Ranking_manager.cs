@@ -6,9 +6,16 @@ using System.Data;
 using MySql.Data.MySqlClient;
 using TMPro;
 
-public class Ranking_manager : MonoBehaviour
+public class Ranking_manager : Manager
 {
     public GameObject[] rankinglist;
+    public GameObject[] input_field;
+
+    string alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    string set_nickname = "";
+
+    int enter_cnt = 0;
+    int alpha_cnt = 0;
 
 
     #region SQL
@@ -22,7 +29,7 @@ public class Ranking_manager : MonoBehaviour
     string strconn = ipAdress + db_name + db_port + db_id + db_pw;
     #endregion
 
-    private void Start()
+    public override void Manager_Start()
     {
         try
         {
@@ -33,6 +40,26 @@ public class Ranking_manager : MonoBehaviour
         {
             Debug.Log(e.ToString());
         }
+    }
+
+    public override void Manager_Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Return))
+        {
+            alpha_cnt = 0;
+            set_nickname += input_field[enter_cnt].GetComponent<TextMeshProUGUI>().text;
+            enter_cnt++;
+        }
+
+        if(Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            input_field[enter_cnt].GetComponent<TextMeshProUGUI>().text = alphabet[alpha_cnt].ToString();
+        }
+        else if(Input.GetKeyDown(KeyCode.DownArrow))
+        {
+
+        }
+
     }
 
     //게임이 끝나면 스코어를 데이터 베이스에 저장하기위한 함수
@@ -78,4 +105,7 @@ public class Ranking_manager : MonoBehaviour
         }
     }
 
+    
+
+    
 }

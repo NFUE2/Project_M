@@ -8,10 +8,9 @@ public class Manager_Controller : MonoBehaviour
 
     void Start()
     {
-        
+        manager.Manager_Start();
     }
 
-    // Update is called once per frame
     void Update()
     {
         manager.Manager_Update();
