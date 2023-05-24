@@ -42,7 +42,7 @@ public struct Data
 //전략패턴을 사용하기위한 부모클래스
 public abstract class Character : MonoBehaviour
 {
-    float jumpPower = 13.0f; //점프력을 정해둔 변수
+    float jumpPower = 15.0f; //점프력을 정해둔 변수
     public Data data; //캐릭터의 데이터를 정할 변수
     Rigidbody rigidbody; //캐릭터의 점프를 위한 클래스변수
 
@@ -58,53 +58,51 @@ public abstract class Character : MonoBehaviour
     //몬스터가 사용할 가상함수, 플레이어 캐릭터는 사용하지 않음
     public virtual void Monster_Action() { }
 
+    //캐릭터가 공격할때 사용할 함수
     public void Attack()
     {
         Ray ray = new Ray(transform.position, transform.position + transform.right);
         bool check = Physics.Raycast(ray);
-        data.animator.SetTrigger("Attack");
 
-        string layer = gameObject.layer == 13 ? "Player" : "Enemy";
+        data.attack_timing = 0.0f;
 
-        if(check && data.attack_timing > data.attack_delay)
-        {
-            Close_Range_Attack(layer);
-        }
-        else if(!check && data.attack_timing > data.attack_delay)
+        if (check)
+            data.animator.SetTrigger("Close Attack");
+
+        else if(!check)
         {
             try
             {
-                Long_Range_Attack();
+                data.animator.SetTrigger("Long Range Attack");
             }
             catch
             {
-                Close_Range_Attack(layer);
+                data.animator.SetTrigger("Close Attack");
             }
         }
-
-        data.attack_timing = 0.0f;
     }
 
     //근접캐릭터들이 데미지를 주기 위한 함수
-    private void Close_Range_Attack(string layer)
+    public void Close_Range_Attack()
     {
-        data.animator.SetTrigger("Close Attack");
+        //레이어에 따른 공격 타겟
+        string layer = gameObject.layer == 12 ? "Player" : "Enemy";
 
         //적들은 리지드바디를 사용하지않아 겹칠 수 있게 해두어서 범위내의 적은 다 죽일수있게 함
         foreach (Collider col in Physics.OverlapBox
             (transform.position + transform.right,
-            new Vector3(0.5f, 0.5f, 0f),
+            new Vector3(1.5f, 0.5f, 0f),
             Quaternion.Euler(0, 0, 0),
             LayerMask.GetMask(layer))) //int로 사용하려햇으나 작동을 안했음,Enemy의 레이어는 12번
         {
             //해당 개체의 스크립트를 참조하여 데미지(체력감소)
-            //col.GetComponent<Character_Controller>().character.data.hp -= data.damage;
+            col.GetComponent<Character_Controller>().character.data.hp -= data.damage;
         }
     }
 
     public virtual void Long_Range_Attack()
     {
-        data.animator.SetTrigger("Long Range Attack");
+
     }
 
     //public virtual void Charging_Attack(GameObject projectile, GameObject fire_pos) { } //차징공격
@@ -126,19 +124,22 @@ public abstract class Character : MonoBehaviour
         if (H != 0)
         {
             transform.rotation = H > 0.0f ? Quaternion.Euler(0, 90, 0) : Quaternion.Euler(0, 270, 0);
-            //if (!data.jumping) data.animator.SetBool("move", true);
+            if (!data.jumping) data.animator.SetBool("Move", true);
         }
-        //else
-            //data.animator.SetBool("move", false);
+        else
+            data.animator.SetBool("Move", false);
 
         //캐릭터가 바닥에 닿아있고 점프키가 눌려진다면 작동함
         if (!data.jumping && Input.GetAxis("Jump") == 1.0f)
+        {
+            data.animator.SetTrigger("Jump");
+            data.animator.SetBool("IsGround",false);
             Jump();
+        }
 
         transform.position += (Vector3.right * H * data.speed) * Time.deltaTime;
     }
 
-    //캐릭터가 공격할때 사용할 함수
 
     //오브젝트 풀을 이용하기위한 함수
     protected List<GameObject> Create_projectile(GameObject projectile,Transform parent)
@@ -160,6 +161,9 @@ public abstract class Character : MonoBehaviour
     {
         //땅과 접촉시 다시 점프를 할 수 있게 만듬
         if (data.jumping && collision.gameObject.layer == 10)
+        {
             data.jumping = false;
+            data.animator.SetBool("IsGround", true);
+        }
     }
 }

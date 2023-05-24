@@ -27,10 +27,6 @@ public class Boss : Character
 
     }
 
-    public override void Close_Range_Attack(string layer)
-    {
-
-    }
 
     public override void Monster_Action()
     {

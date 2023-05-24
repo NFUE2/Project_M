@@ -26,7 +26,7 @@ public class Enemy2 : Character
         data.attack_delay = 3.0f;
         data.attack_timing = 3.0f;
 
-        data.attack_distance = 1.5f;
+        data.attack_distance = 3.5f;
         data.player_search = false;
 
         origin_Pos = transform.position;
@@ -37,12 +37,11 @@ public class Enemy2 : Character
     {
         float distance = Vector3.Distance(data.Player.transform.position, transform.position);
 
-        if (distance <= data.attack_distance && data.attack_delay < data.attack_timing)
+        if (distance <= data.attack_distance )
         {
-            base.Close_Range_Attack("Player");
-            Debug.Log("АјАн");
+            if(data.attack_delay < data.attack_timing)
+                Attack();
         }
-
         else
         {
             if (data.player_search)
@@ -51,6 +50,7 @@ public class Enemy2 : Character
                 Rally_Point();
 
             transform.position += Dir.normalized * data.speed * Time.deltaTime;
+            transform.rotation = Dir.x > 0f ? Quaternion.Euler(0, 0, 0) : Quaternion.Euler(0, 180, 0);
         }
     }
 
@@ -67,16 +67,10 @@ public class Enemy2 : Character
         Vector3 dir = transform.position - origin_Pos;
 
         if (distance >= 5.0f && dir.x < 0.0f)
-        {
             Dir = Vector3.right;
-            transform.rotation = Quaternion.Euler(0,0,0);
-        }
 
         else if (distance >= 5.0f && dir.x > 0.0f)
-        {
             Dir = Vector3.left;
-            transform.rotation = Quaternion.Euler(0,180,0);
-        }
     }
 
     private void Search()

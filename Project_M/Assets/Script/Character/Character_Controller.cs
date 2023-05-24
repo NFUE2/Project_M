@@ -9,11 +9,8 @@ public class Character_Controller : MonoBehaviour
     public Vector3 fire_Pos; //원거리 캐릭터의 경우 투사체가 발사될 위치
     public GameObject projectile; //원거리 캐릭터의 투사체 종류
 
-    Animator animator; //애니메이션
-
     private void Start()
     {
-        animator = GetComponent<Animator>(); //각 캐릭터의 애니메이션
         character.initSetting(fire_Pos, projectile); //각 캐릭터의 초기변수 세팅
     }
 
@@ -23,9 +20,15 @@ public class Character_Controller : MonoBehaviour
         character.data.attack_timing += Time.deltaTime;
 
         //체력이 0이하로 떨어지면 사망하게함
-        if (character.data.hp < 0.0f)
+        if (character.data.hp <= 0.0f)
         {
-            //animator.SetTrigger("Dead"); //애니메이션에서 사망처리
+            character.data.animator.SetTrigger("Dead"); //애니메이션에서 사망처리
+
+            if (gameObject.layer == 13) //플레이어가 사망할경우
+                GameManager.instance.P_player_survive = false; 
+
+            else if (gameObject.layer == 14) //보스를 잡을경우
+                GameManager.instance.P_stage_clear = true;
 
             //스크립트가 더이상 작동하지 않도록 처리
             gameObject.GetComponent<Character_Controller>().enabled = false;
@@ -42,7 +45,7 @@ public class Character_Controller : MonoBehaviour
             character.Move();
 
             //A키를 누르면 공격을함
-            if (Input.GetButtonDown("Attack"))
+            if (Input.GetAxis("Attack") == 1.0f && character.data.attack_delay < character.data.attack_timing)
             {
                 character.Attack();
             }

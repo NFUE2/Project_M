@@ -15,6 +15,8 @@ public class Viking : Character
         data.speed = 10.0f;
         data.damage = 1.0f;
 
+        data.attack_delay = 1.0f;
+        data.attack_timing = 1.0f;
         //data.charging = 0.0f;
 
         data.jumping = false;
@@ -25,4 +27,10 @@ public class Viking : Character
         //부모의 Move함수를 작동
         base.Move();
     }
+
+    public override void Long_Range_Attack()
+    {
+        Close_Range_Attack();
+    }
+
 }

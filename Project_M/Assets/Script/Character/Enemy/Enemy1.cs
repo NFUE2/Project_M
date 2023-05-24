@@ -39,7 +39,10 @@ public class Enemy1 : Character
             Move();
         //공격범위 안에 들어오고 공격기회가 있을때 공격
         else if (distance <= data.attack_distance && data.attack_timing >= data.attack_delay)
-            base.Close_Range_Attack("Player");
+        {
+
+        }
+            //base.Close_Range_Attack("Player");
     }
 
     //몬스터가 캐릭터의 방향으로 이동
