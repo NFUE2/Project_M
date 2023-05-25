@@ -6,12 +6,15 @@ public class Character_Controller : MonoBehaviour
 {
     public Character character; //어떤 캐릭터를 받아올것인지에 대한 클래스변수
 
-    public Vector3 fire_Pos; //원거리 캐릭터의 경우 투사체가 발사될 위치
+    public GameObject fire_Pos; //원거리 캐릭터의 경우 투사체가 발사될 위치
     public GameObject projectile; //원거리 캐릭터의 투사체 종류
 
     private void Start()
     {
-        character.initSetting(fire_Pos, projectile); //각 캐릭터의 초기변수 세팅
+        if (fire_Pos == null && projectile == null)
+            character.initSetting(Vector3.zero, null);
+        else
+            character.initSetting(fire_Pos.transform.position, projectile); //각 캐릭터의 초기변수 세팅
     }
 
     private void Update()
@@ -25,13 +28,16 @@ public class Character_Controller : MonoBehaviour
             character.data.animator.SetTrigger("Dead"); //애니메이션에서 사망처리
 
             if (gameObject.layer == 13) //플레이어가 사망할경우
-                GameManager.instance.P_player_survive = false; 
+                GameManager.instance.P_player_survive = false;
 
-            else if (gameObject.layer == 14) //보스를 잡을경우
-                GameManager.instance.P_stage_clear = true;
+            else if (gameObject.layer == 12) //적이 사망할경우
+            {
+                GameManager.instance.P_score = character.data.score;
+                gameObject.GetComponent<CapsuleCollider>().enabled = false;
+            }
+            gameObject.GetComponent<Character_Controller>().enabled = false;
 
             //스크립트가 더이상 작동하지 않도록 처리
-            gameObject.GetComponent<Character_Controller>().enabled = false;
             return;
         }
     }

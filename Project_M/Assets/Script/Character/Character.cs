@@ -24,7 +24,6 @@ public struct Data
 
     public float attack_delay; //캐릭터의 공격간의 최소시간
     public float attack_timing; //캐릭터의 다음 공격까지의 시간
-    //public float charging; //플레이어의 차징 시간
 
     public Vector3 fire_pos; //원거리 공격시 발사 포지션
     public GameObject projectile; //원거리 공격시 날아갈 발사체
@@ -33,6 +32,8 @@ public struct Data
     public List<GameObject> open_Obj; //사용이 가능한 게임오브젝트
     public List<GameObject> close_Obj; //사용중인 게임오브젝트
 
+    public float search_distance; //몬스터 탐지거리
+    public int score; //몬스터 사망시 얻는 점수
     public float attack_distance; //몬스터 공격거리
     public bool player_search; //몬스터의 플레이어를 탐지유무
 
@@ -44,7 +45,7 @@ public abstract class Character : MonoBehaviour
 {
     float jumpPower = 15.0f; //점프력을 정해둔 변수
     public Data data; //캐릭터의 데이터를 정할 변수
-    Rigidbody rigidbody; //캐릭터의 점프를 위한 클래스변수
+    Rigidbody rigidbody; //캐릭터의 점프를 위한 클래스 변수
 
     private void Start()
     {
@@ -54,7 +55,7 @@ public abstract class Character : MonoBehaviour
     }
 
     //추상클래스를 생성하여 무조건 재정의 하도록 함,기본 정보를 설정하는 함수
-    public abstract void initSetting(Vector3 fire_pos, GameObject projectile);
+    public abstract void initSetting(Vector3 fire_pos , GameObject projectile);
     //몬스터가 사용할 가상함수, 플레이어 캐릭터는 사용하지 않음
     public virtual void Monster_Action() { }
 
@@ -87,15 +88,17 @@ public abstract class Character : MonoBehaviour
     {
         //레이어에 따른 공격 타겟
         string layer = gameObject.layer == 12 ? "Player" : "Enemy";
+        Vector3 defalutpos = transform.position + new Vector3(0, 1.5f, 0);
 
         //적들은 리지드바디를 사용하지않아 겹칠 수 있게 해두어서 범위내의 적은 다 죽일수있게 함
         foreach (Collider col in Physics.OverlapBox
-            (transform.position + transform.right,
-            new Vector3(1.5f, 0.5f, 0f),
+            (defalutpos + transform.forward * 2,
+            new Vector3(1.5f, 2f, 0f),
             Quaternion.Euler(0, 0, 0),
             LayerMask.GetMask(layer))) //int로 사용하려햇으나 작동을 안했음,Enemy의 레이어는 12번
         {
             //해당 개체의 스크립트를 참조하여 데미지(체력감소)
+            
             col.GetComponent<Character_Controller>().character.data.hp -= data.damage;
         }
     }
@@ -106,7 +109,6 @@ public abstract class Character : MonoBehaviour
     }
 
     //public virtual void Charging_Attack(GameObject projectile, GameObject fire_pos) { } //차징공격
-
     //점프를 구현한 함수 Move안에 구현하지 않은 이유는 몬스터들이 따로 사용하기위함
     private void Jump()
     {
@@ -142,18 +144,28 @@ public abstract class Character : MonoBehaviour
 
 
     //오브젝트 풀을 이용하기위한 함수
-    protected List<GameObject> Create_projectile(GameObject projectile,Transform parent)
+    protected List<GameObject> Set_projectile(GameObject projectile,Transform parent)
     {
         List<GameObject> list = new List<GameObject>();
 
-        for (int i = 0; i < 10; i++)
+        if(data.close_Obj.Count == 10)
         {
-            GameObject obj = Instantiate(projectile);
-            obj.SetActive(false);
-            obj.transform.parent = parent;
-            list.Add(obj);
+            for (int i = 0; i < 10; i++)
+            {
+                data.open_Obj.Add(data.close_Obj[i]);
+                data.close_Obj.Remove(data.close_Obj[i]);
+            }
         }
-
+        else
+        {
+            for (int i = 0; i < 10; i++)
+            {
+                GameObject obj = Instantiate(projectile);
+                obj.SetActive(false);
+                obj.transform.parent = parent;
+                list.Add(obj);
+            }
+        }
         return list;
     }
 
@@ -165,5 +177,12 @@ public abstract class Character : MonoBehaviour
             data.jumping = false;
             data.animator.SetBool("IsGround", true);
         }
+   }
+
+    private void OnDrawGizmos()
+    {
+        Vector3 defalutpos = transform.position + new Vector3(0, 1.5f, 0);
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(defalutpos , defalutpos + transform.forward * 2);
     }
 }

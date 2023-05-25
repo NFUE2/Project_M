@@ -8,25 +8,20 @@ public class Boss : Character
     {
         data.user = User.Com;
 
-        data.Player = GameObject.Find("character");
+        data.Player = GameObject.Find("Player");
 
         data.animator = gameObject.GetComponent<Animator>();
 
-        data.hp = 1.0f;
+        data.hp = 5.0f;
         data.speed = 6.0f;
         data.damage = 1.0f;
 
         data.attack_delay = 3.0f;
-        data.attack_timing = 3.0f;
+        data.attack_timing = 1.5f;
+        data.player_search = false;
 
-        data.attack_distance = 1.5f;
+        data.attack_distance = 3.0f;
     }
-
-    public override void Long_Range_Attack()
-    {
-
-    }
-
 
     public override void Monster_Action()
     {

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4847469260350696}
   - component: {fileID: 137115616811329638}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Dungeon_Skeleton_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,6 +27,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 13
@@ -42,10 +43,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -129,7 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4193215080321306}
   - component: {fileID: 137891796857768508}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Dungeon_SkeletonSoldier_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -146,6 +149,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 16
@@ -161,10 +165,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -248,7 +254,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4003948982701116}
   - component: {fileID: 137598446784827636}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Western_Cowboy_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -265,6 +271,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 53
@@ -280,10 +287,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -366,7 +375,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4578414696429456}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: thigh_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -383,6 +392,7 @@ Transform:
   m_LocalRotation: {x: 5.162345e-15, y: 5.3088014e-15, z: 0.69721323, w: 0.71686375}
   m_LocalPosition: {x: -0.14953698, y: -0.062121946, z: 1.4033218e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4663422539037300}
   m_Father: {fileID: 4828109530035580}
@@ -397,7 +407,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4781874327940224}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: foot_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -414,6 +424,7 @@ Transform:
   m_LocalRotation: {x: 0.76698774, y: 0.6329747, z: -0.050942495, w: 0.09207496}
   m_LocalPosition: {x: 0.21582764, y: 0.002357442, z: 0.0000006154956}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4634846472113524}
   m_Father: {fileID: 4991914221172334}
@@ -428,7 +439,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4951926144262078}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: toes_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -445,6 +456,7 @@ Transform:
   m_LocalRotation: {x: 2.6482161e-15, y: -0.7071068, z: 2.6482161e-15, w: 0.7071068}
   m_LocalPosition: {x: -0.058889512, y: -2.788073e-17, z: -1.5912988e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4122641329668532}
   m_RootOrder: 0
@@ -458,7 +470,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4689296436998392}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: middle_01_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -475,6 +487,7 @@ Transform:
   m_LocalRotation: {x: -0.120912455, y: -0.41622204, z: 0.05166016, w: 0.8997058}
   m_LocalPosition: {x: -0.087085836, y: 0.019965027, z: -0.11055341}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4098652808170488}
   m_Father: {fileID: 4734764244085794}
@@ -489,7 +502,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4663422539037300}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: calf_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -506,6 +519,7 @@ Transform:
   m_LocalRotation: {x: -0.6252311, y: -0.06665089, z: -0.060908277, w: 0.7751993}
   m_LocalPosition: {x: -0.18532088, y: -3.2196467e-17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4094557471538372}
   m_Father: {fileID: 4578414696429456}
@@ -521,7 +535,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4474690905421210}
   - component: {fileID: 137706577984749794}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Fantasy_Druid_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -538,6 +552,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 18
@@ -553,10 +568,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -640,7 +657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4258303550067250}
   - component: {fileID: 137666705046270470}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Pirates_GovDaughter_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -657,6 +674,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 40
@@ -672,10 +690,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -759,7 +779,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4542405867544772}
   - component: {fileID: 137467316641933942}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Western_Gunman_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -776,6 +796,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 55
@@ -791,10 +812,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -877,7 +900,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4679222211653188}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -894,6 +917,7 @@ Transform:
   m_LocalRotation: {x: 7.563041e-14, y: 1.1344371e-14, z: 0.22682555, w: 0.9739354}
   m_LocalPosition: {x: -0.0699296, y: 4.8849813e-17, z: 3.8966696e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4975772135620500}
   - {fileID: 4495294418045502}
@@ -910,7 +934,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4225048783424700}
   - component: {fileID: 137063793516569488}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Fantasy_Queen_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -927,6 +951,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 24
@@ -942,10 +967,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1029,7 +1056,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4224544262807296}
   - component: {fileID: 137139433046663192}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Samurai_SamuraiWarrior_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1046,6 +1073,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 44
@@ -1061,10 +1089,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1148,7 +1178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4416025529192580}
   - component: {fileID: 137339871950160986}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Samurai_Sensei_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1165,6 +1195,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 45
@@ -1180,10 +1211,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1267,7 +1300,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4612605262413264}
   - component: {fileID: 137119150046998264}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Pirates_EnglishSoldier_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1284,6 +1317,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 36
@@ -1299,10 +1333,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1385,7 +1421,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4991914221172334}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: calf_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1402,6 +1438,7 @@ Transform:
   m_LocalRotation: {x: -0.625231, y: -0.06665089, z: -0.060908273, w: 0.77519935}
   m_LocalPosition: {x: 0.18532096, y: -0.00000042431333, z: -8.941735e-15}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4781874327940224}
   m_Father: {fileID: 4398836120896266}
@@ -1416,7 +1453,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4961922603349020}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: neck_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1433,6 +1470,7 @@ Transform:
   m_LocalRotation: {x: 0.9741246, y: -0.22601178, z: 8.274527e-15, w: -2.709177e-14}
   m_LocalPosition: {x: -0.19008188, y: 0, z: -4.1968246e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4679222211653188}
   m_Father: {fileID: 4130025762015264}
@@ -1447,7 +1485,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4828109530035580}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: pelvis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1464,6 +1502,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 8.881784e-18, y: 0.5528884, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4947674420561342}
   - {fileID: 4578414696429456}
@@ -1481,7 +1520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4868782976315720}
   - component: {fileID: 137810596329099638}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Dungeon_KnightFemale_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1498,6 +1537,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 10
@@ -1513,10 +1553,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1600,7 +1642,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4524523547583792}
   - component: {fileID: 137908251435488270}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Adventure_Peasant_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1617,6 +1659,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 0
@@ -1632,10 +1675,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1718,7 +1763,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4182317628363162}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: upperarm_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1735,6 +1780,7 @@ Transform:
   m_LocalRotation: {x: 0.009489849, y: 0.19938874, z: 0.11226052, w: 0.97342265}
   m_LocalPosition: {x: -0.12666713, y: 3.6082247e-18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4927495344360680}
   m_Father: {fileID: 4119369400569636}
@@ -1750,7 +1796,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4344577264131352}
   - component: {fileID: 137635148983537464}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Western_Sheriff_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1767,6 +1813,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 56
@@ -1782,10 +1829,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1868,7 +1917,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4271384444072236}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: middle_02_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1885,6 +1934,7 @@ Transform:
   m_LocalRotation: {x: 0.00046451847, y: 0.0027054842, z: -0.16921839, w: 0.9855748}
   m_LocalPosition: {x: 0.07301014, y: -0.0000005761605, z: 0.000000016055719}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4838352507092736}
   m_RootOrder: 0
@@ -1899,7 +1949,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4708547644560440}
   - component: {fileID: 137883589120163130}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Western_Badguy_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1916,6 +1966,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 52
@@ -1931,10 +1982,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2017,7 +2070,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4975772135620500}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: eyebrows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2034,6 +2087,7 @@ Transform:
   m_LocalRotation: {x: 0.26344135, y: -0.6562002, z: 0.26344135, w: 0.6562002}
   m_LocalPosition: {x: -0.49208835, y: 0.04749711, z: 1.3548404e-16}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4679222211653188}
   m_RootOrder: 0
@@ -2047,7 +2101,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4398836120896266}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: thigh_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2064,6 +2118,7 @@ Transform:
   m_LocalRotation: {x: 0.71686375, y: -0.69721323, z: -0.0000000073463324, w: 0.0000000075533935}
   m_LocalPosition: {x: 0.149537, y: -0.062121943, z: 1.8429702e-16}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4991914221172334}
   m_Father: {fileID: 4828109530035580}
@@ -2079,7 +2134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4556942664595920}
   - component: {fileID: 137028775404885884}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Dungeon_KnightMale_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2096,6 +2151,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 11
@@ -2111,10 +2167,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2197,7 +2255,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4090192706489246}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: thumb_02_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2214,6 +2272,7 @@ Transform:
   m_LocalRotation: {x: -0.028394848, y: -0.09062982, z: 0.11578666, w: 0.9887231}
   m_LocalPosition: {x: 0.07664399, y: -0.00000024575837, z: 0.00000012293376}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4884747471150506}
   m_Father: {fileID: 4884732799251240}
@@ -2228,7 +2287,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4884732799251240}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: thumb_01_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2245,6 +2304,7 @@ Transform:
   m_LocalRotation: {x: -0.027946657, y: -0.1336038, z: -0.018979503, w: 0.9904589}
   m_LocalPosition: {x: 0.09761694, y: -0.0000004651619, z: -0.0000005831829}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4090192706489246}
   m_Father: {fileID: 4508329962310224}
@@ -2260,7 +2320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4310302603855394}
   - component: {fileID: 137149460685863210}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Dungeon_GoblinShaman_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2277,6 +2337,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 7
@@ -2292,10 +2353,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2379,7 +2442,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4763341040969268}
   - component: {fileID: 137438144333188618}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Samurai_Grunt_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2396,6 +2459,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 42
@@ -2411,10 +2475,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2497,7 +2563,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4292879694070606}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: lowerarm_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2514,6 +2580,7 @@ Transform:
   m_LocalRotation: {x: 9.1333663e-17, y: 1.946173e-15, z: -0.045034774, w: 0.99898547}
   m_LocalPosition: {x: 0.26757252, y: -0.0116735445, z: 2.0428103e-16}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4508329962310224}
   m_Father: {fileID: 4923770362249172}
@@ -2529,7 +2596,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4386397936209692}
   - component: {fileID: 137336751648045386}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Pirates_FemalePirate_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2546,6 +2613,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 37
@@ -2561,10 +2629,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2648,7 +2718,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4266301629739388}
   - component: {fileID: 137808025738151828}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Dungeon_SkeletonKnight_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2665,6 +2735,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 14
@@ -2680,10 +2751,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2767,7 +2840,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4426320101014582}
   - component: {fileID: 137163216000772508}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Knights_Dark_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2784,6 +2857,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 29
@@ -2799,10 +2873,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2886,7 +2962,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4214817192983572}
   - component: {fileID: 137743490959068534}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Dungeon_GoblinFemale_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2903,6 +2979,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 5
@@ -2918,10 +2995,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3005,7 +3084,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4425215659019720}
   - component: {fileID: 137750116824580354}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Fantasy_RougeMale_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3022,6 +3101,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 25
@@ -3037,10 +3117,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3124,7 +3206,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4870303707053728}
   - component: {fileID: 137487194017607522}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Vikings_Warrior_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3141,6 +3223,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 51
@@ -3156,10 +3239,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3242,7 +3327,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4734764244085794}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: hand_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3259,6 +3344,7 @@ Transform:
   m_LocalRotation: {x: 0.06389794, y: 0.42619005, z: 0.06900271, w: 0.8997321}
   m_LocalPosition: {x: -0.2675374, y: -0.012449518, z: -0.000000001609775}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4689296436998392}
   - {fileID: 4372355633418990}
@@ -3274,7 +3360,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4994799846805426}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: toes_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3291,6 +3377,7 @@ Transform:
   m_LocalRotation: {x: 0.000000024475543, y: -0.7071068, z: 0.000000024475543, w: 0.7071068}
   m_LocalPosition: {x: 0.058889497, y: 7.105427e-17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4634846472113524}
   m_RootOrder: 0
@@ -3305,7 +3392,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4696531300623992}
   - component: {fileID: 137698978301843536}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Samurai_VillageMan_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3322,6 +3409,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 46
@@ -3337,10 +3425,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3424,7 +3514,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4295708079518510}
   - component: {fileID: 137676412101339946}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Samurai_Ninja_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3441,6 +3531,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 43
@@ -3456,10 +3547,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3543,7 +3636,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4594101409064390}
   - component: {fileID: 137424255918941816}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Fantasy_Gypsy_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3560,6 +3653,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 20
@@ -3575,10 +3669,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3662,7 +3758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4795017595695426}
   - component: {fileID: 137545886792598288}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Pirates_Captain_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3679,6 +3775,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 33
@@ -3694,10 +3791,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3779,7 +3878,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4130025762015264}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: spine_03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3796,6 +3895,7 @@ Transform:
   m_LocalRotation: {x: 0.70610756, y: -0.037578497, z: 0.037578497, w: 0.70610756}
   m_LocalPosition: {x: -0.15234078, y: 3.382645e-17, z: -4.440892e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4119369400569636}
   - {fileID: 4503218615404016}
@@ -3813,7 +3913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4162221909433120}
   - component: {fileID: 137510472384999058}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Fantasy_King_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3830,6 +3930,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 21
@@ -3845,10 +3946,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3931,7 +4034,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4094557471538372}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: foot_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3948,6 +4051,7 @@ Transform:
   m_LocalRotation: {x: 0.76698774, y: 0.6329747, z: -0.050942495, w: 0.09207496}
   m_LocalPosition: {x: -0.21582747, y: -0.0023573, z: 1.4210854e-16}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4122641329668532}
   m_Father: {fileID: 4663422539037300}
@@ -3963,7 +4067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4142280686731902}
   - component: {fileID: 137003611423698826}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Western_TownMan_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3980,6 +4084,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 57
@@ -3995,10 +4100,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4081,7 +4188,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4927495344360680}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: lowerarm_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4098,6 +4205,7 @@ Transform:
   m_LocalRotation: {x: -5.1235697e-15, y: -7.622965e-16, z: -0.045034774, w: 0.99898547}
   m_LocalPosition: {x: -0.26757237, y: 0.01167347, z: 0.0000000016097733}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4734764244085794}
   m_Father: {fileID: 4182317628363162}
@@ -4113,7 +4221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4736078046606976}
   - component: {fileID: 137616377085281534}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Western_Cowgirl_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4130,6 +4238,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 54
@@ -4145,10 +4254,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4231,7 +4342,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4495294418045502}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: eyes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4248,6 +4359,7 @@ Transform:
   m_LocalRotation: {x: 0.26344135, y: -0.6562002, z: 0.26344135, w: 0.6562002}
   m_LocalPosition: {x: -0.44662374, y: -3.5527136e-17, z: -7.5255536e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4679222211653188}
   m_RootOrder: 1
@@ -4261,7 +4373,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4923770362249172}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: upperarm_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4278,6 +4390,7 @@ Transform:
   m_LocalRotation: {x: 0.009489849, y: 0.19938874, z: 0.11226052, w: 0.97342265}
   m_LocalPosition: {x: 0.1266669, y: 0.00000013320208, z: 0.00000004519148}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4292879694070606}
   m_Father: {fileID: 4503218615404016}
@@ -4293,7 +4406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4798629732772036}
   - component: {fileID: 137311711118192764}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Samurai_Geisha_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4310,6 +4423,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 41
@@ -4325,10 +4439,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4411,7 +4527,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4884747471150506}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: thumb_03_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4428,6 +4544,7 @@ Transform:
   m_LocalRotation: {x: -0.044190906, y: -0.20723124, z: -0.2038197, w: 0.9558033}
   m_LocalPosition: {x: 0.07903118, y: 0.00000014606215, z: 0.0000003152243}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4090192706489246}
   m_RootOrder: 0
@@ -4442,7 +4559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4809538978534388}
   - component: {fileID: 137598333013234818}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Dungeon_GoblinWarriorFemale_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4459,6 +4576,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 8
@@ -4474,10 +4592,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4561,7 +4681,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4181001053500518}
   - component: {fileID: 137119578017410708}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Pirates_EnglishCaptain_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4578,6 +4698,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 35
@@ -4593,10 +4714,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4680,7 +4803,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4089748597254258}
   - component: {fileID: 137931591162557492}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Samurai_VillageWoman_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4697,6 +4820,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 47
@@ -4712,10 +4836,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4799,7 +4925,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4117357938612530}
   - component: {fileID: 137272571238617204}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Adventure_Viking_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4816,6 +4942,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 2
@@ -4831,10 +4958,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4918,7 +5047,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4981160932138544}
   - component: {fileID: 137902829627145116}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Pirates_Firstmate_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4935,6 +5064,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 38
@@ -4950,10 +5080,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5037,7 +5169,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4038062640412194}
   - component: {fileID: 137220538991331428}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Fantasy_Wizard_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5054,6 +5186,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 28
@@ -5069,10 +5202,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5155,7 +5290,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4015872813585934}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5172,6 +5307,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4828109530035580}
   m_Father: {fileID: 4529959548488580}
@@ -5187,7 +5323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4301451003803022}
   - component: {fileID: 137155030596112692}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Vikings_Chief_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5204,6 +5340,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 48
@@ -5219,10 +5356,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5306,7 +5445,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4654369113110938}
   - component: {fileID: 137662109191357896}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Knights_Soldier_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5323,6 +5462,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 31
@@ -5338,10 +5478,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5425,7 +5567,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4529959548488580}
   - component: {fileID: 95949351757707422}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Fantasy_Wizard_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5442,6 +5584,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4524523547583792}
   - {fileID: 4886895788831064}
@@ -5509,7 +5652,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &95949351757707422
 Animator:
-  serializedVersion: 3
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -5522,10 +5665,12 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1752813088756096
 GameObject:
   m_ObjectHideFlags: 0
@@ -5535,7 +5680,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4119369400569636}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: clavicle_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5552,6 +5697,7 @@ Transform:
   m_LocalRotation: {x: -0.38243318, y: 0.39767796, z: 0.5363994, w: 0.63864917}
   m_LocalPosition: {x: -0.07263556, y: 0.03286756, z: 0.11330262}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4182317628363162}
   m_Father: {fileID: 4130025762015264}
@@ -5567,7 +5713,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4005233787062332}
   - component: {fileID: 137750602772231722}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Fantasy_PeasantWoman_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5584,6 +5730,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 23
@@ -5599,10 +5746,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5686,7 +5835,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4639171805406174}
   - component: {fileID: 137192801853137894}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Knights_Light_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5703,6 +5852,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 30
@@ -5718,10 +5868,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5805,7 +5957,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4991780956719222}
   - component: {fileID: 137103824412157910}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Pirates_Deckhand_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5822,6 +5974,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 34
@@ -5837,10 +5990,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5924,7 +6079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4190671863925650}
   - component: {fileID: 137137417205064394}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Fantasy_Bard_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5941,6 +6096,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 17
@@ -5956,10 +6112,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6042,7 +6200,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4508329962310224}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: hand_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6059,6 +6217,7 @@ Transform:
   m_LocalRotation: {x: 0.06389794, y: 0.42619005, z: 0.06900271, w: 0.8997321}
   m_LocalPosition: {x: 0.26753753, y: 0.012449487, z: 1.687539e-16}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4838352507092736}
   - {fileID: 4884732799251240}
@@ -6075,7 +6234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4908822264034446}
   - component: {fileID: 137205022417072342}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Western_Woman_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6092,6 +6251,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 58
@@ -6107,10 +6267,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6193,7 +6355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4634846472113524}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: ball_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6207,10 +6369,10 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1807608721698178}
-  m_LocalRotation: {x: 0.000000014639314, y: -0.0000000027811444, z: -0.18663995,
-    w: 0.98242843}
+  m_LocalRotation: {x: 0.000000014639314, y: -0.0000000027811444, z: -0.18663995, w: 0.98242843}
   m_LocalPosition: {x: 0.09232825, y: 0.03782343, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4994799846805426}
   m_Father: {fileID: 4781874327940224}
@@ -6226,7 +6388,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4523497337781434}
   - component: {fileID: 137250035391549846}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Dungeon_GoblinWarriorMale_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6243,6 +6405,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 9
@@ -6258,10 +6421,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6345,7 +6510,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4754642207086588}
   - component: {fileID: 137809592354814018}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Adventure_Warrior_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6362,6 +6527,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 3
@@ -6377,10 +6543,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6464,7 +6632,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4886895788831064}
   - component: {fileID: 137235397358203626}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Adventure_ShopKeeper_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6481,6 +6649,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 1
@@ -6496,10 +6665,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6583,7 +6754,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4481307001779772}
   - component: {fileID: 137251466672595180}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Pirates_Blackbeard_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6600,6 +6771,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 32
@@ -6615,10 +6787,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6701,7 +6875,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4372355633418990}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: thumb_01_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6718,6 +6892,7 @@ Transform:
   m_LocalRotation: {x: -0.027946657, y: -0.1336038, z: -0.018979503, w: 0.9904589}
   m_LocalPosition: {x: -0.097617604, y: 8.437695e-17, z: 1.4210854e-16}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4031945626519428}
   m_Father: {fileID: 4734764244085794}
@@ -6733,7 +6908,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4822064432079788}
   - component: {fileID: 137844589638266836}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Western_WorkingGirl_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6750,6 +6925,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 59
@@ -6765,10 +6941,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6851,7 +7029,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4947674420561342}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: spine_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6868,6 +7046,7 @@ Transform:
   m_LocalRotation: {x: -1.412332e-14, y: 2.0287007e-15, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -0.0000000012739206, y: 0.09621673, z: -0.020261854}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4768859341559628}
   m_Father: {fileID: 4828109530035580}
@@ -6883,7 +7062,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4612597399338068}
   - component: {fileID: 137845434053563924}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Vikings_Warrior_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6900,6 +7079,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 50
@@ -6915,10 +7095,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7001,7 +7183,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4098652808170488}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: middle_02_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7018,6 +7200,7 @@ Transform:
   m_LocalRotation: {x: 0.00046451847, y: 0.0027054842, z: -0.16921839, w: 0.9855748}
   m_LocalPosition: {x: -0.07300905, y: 0.0000000087193035, z: -0.00000005623653}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4689296436998392}
   m_RootOrder: 0
@@ -7031,7 +7214,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4122641329668532}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: ball_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7048,6 +7231,7 @@ Transform:
   m_LocalRotation: {x: 8.822384e-15, y: -3.0992554e-15, z: -0.18663995, w: 0.98242843}
   m_LocalPosition: {x: -0.09232829, y: -0.037823524, z: 3.5527136e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4951926144262078}
   m_Father: {fileID: 4094557471538372}
@@ -7062,7 +7246,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4031945626519428}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: thumb_02_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7079,6 +7263,7 @@ Transform:
   m_LocalRotation: {x: -0.028394848, y: -0.09062982, z: 0.11578666, w: 0.9887231}
   m_LocalPosition: {x: -0.07664389, y: 1.9428903e-16, z: -1.9984014e-16}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4891159342219504}
   m_Father: {fileID: 4372355633418990}
@@ -7094,7 +7279,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4487027629500124}
   - component: {fileID: 137303023959719182}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Dungeon_RockGolem_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7111,6 +7296,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 12
@@ -7126,10 +7312,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7212,7 +7400,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4503218615404016}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: clavicle_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7229,6 +7417,7 @@ Transform:
   m_LocalRotation: {x: 0.39767796, y: 0.38243318, z: -0.63864917, w: 0.5363994}
   m_LocalPosition: {x: -0.072635286, y: 0.032867532, z: -0.113303}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4923770362249172}
   m_Father: {fileID: 4130025762015264}
@@ -7244,7 +7433,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4933430688297968}
   - component: {fileID: 137572114390843962}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Dungeon_SkeletonSoldier_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7261,6 +7450,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 15
@@ -7276,10 +7466,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7363,7 +7555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4712449115451886}
   - component: {fileID: 137153596567927688}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Fantasy_MalePeasant_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7380,6 +7572,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 22
@@ -7395,10 +7588,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7482,7 +7677,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4448689134608956}
   - component: {fileID: 137823283740395340}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Dungeon_GoblinChief_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7499,6 +7694,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 4
@@ -7514,10 +7710,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7601,7 +7799,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4022507564641218}
   - component: {fileID: 137636263317075056}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Fantasy_Witch_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7618,6 +7816,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 27
@@ -7633,10 +7832,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7719,7 +7920,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4891159342219504}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: thumb_03_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7736,6 +7937,7 @@ Transform:
   m_LocalRotation: {x: -0.044190906, y: -0.20723124, z: -0.2038197, w: 0.9558033}
   m_LocalPosition: {x: -0.07903092, y: -1.4432899e-17, z: -9.325873e-17}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4031945626519428}
   m_RootOrder: 0
@@ -7750,7 +7952,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4940434175973416}
   - component: {fileID: 137592711557422822}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Pirates_Gentleman_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7767,6 +7969,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 39
@@ -7782,10 +7985,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7869,7 +8074,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4874447942967826}
   - component: {fileID: 137599309408600570}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Fantasy_FemalePeasant_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7886,6 +8091,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 19
@@ -7901,10 +8107,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7988,7 +8196,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4285412445305586}
   - component: {fileID: 137029363962438938}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Fantasy_Sorcerer_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8005,6 +8213,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 26
@@ -8020,10 +8229,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8107,7 +8318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4952391273350300}
   - component: {fileID: 137881254943334150}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Vikings_ShieldMaiden_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8124,6 +8335,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 49
@@ -8139,10 +8351,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8225,7 +8439,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4838352507092736}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: middle_01_r
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8242,6 +8456,7 @@ Transform:
   m_LocalRotation: {x: -0.120912455, y: -0.41622204, z: 0.05166016, w: 0.8997058}
   m_LocalPosition: {x: 0.087085284, y: -0.0199649, z: 0.11055272}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4271384444072236}
   m_Father: {fileID: 4508329962310224}
@@ -8256,7 +8471,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4768859341559628}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: spine_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8273,6 +8488,7 @@ Transform:
   m_LocalRotation: {x: -1.6649378e-15, y: 9.996344e-16, z: -1.0647028e-14, w: 1}
   m_LocalPosition: {x: -0.15531465, y: 3.448678e-17, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4130025762015264}
   m_Father: {fileID: 4947674420561342}
@@ -8288,7 +8504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4924694127324380}
   - component: {fileID: 137149334324918662}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Chr_Dungeon_GoblinMale_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8305,6 +8521,7 @@ Transform:
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4529959548488580}
   m_RootOrder: 6
@@ -8320,10 +8537,12 @@ SkinnedMeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

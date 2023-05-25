@@ -10,14 +10,12 @@ public class Viking : Character
         data.user = User.Player;
 
         data.animator = gameObject.GetComponent<Animator>();
-
         data.hp = 1.0f;
         data.speed = 10.0f;
         data.damage = 1.0f;
 
         data.attack_delay = 1.0f;
         data.attack_timing = 1.0f;
-        //data.charging = 0.0f;
 
         data.jumping = false;
     }

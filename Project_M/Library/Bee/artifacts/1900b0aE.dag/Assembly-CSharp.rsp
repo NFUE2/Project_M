@@ -381,6 +381,7 @@
 "Assets/Script/Character/Player/Gunman.cs"
 "Assets/Script/Character/Player/Magician.cs"
 "Assets/Script/Character/Player/Viking.cs"
+"Assets/Script/Character/Projectile.cs"
 "Assets/Script/manager/GameManager.cs"
 "Assets/Script/manager/Manager.cs"
 "Assets/Script/manager/Manager_Controller.cs"

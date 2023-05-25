@@ -31,12 +31,15 @@ public class Enemy3 : Character
             data.open_Obj = new List<GameObject>();
             data.close_Obj = new List<GameObject>();
 
-            data.open_Obj = Create_projectile(data.projectile,transform);
+            data.open_Obj = Set_projectile(data.projectile,transform);
         }
     }
     
     public override void Long_Range_Attack()
     {
+        if(data.open_Obj.Count == 0)
+            Set_projectile(data.projectile, transform);
+
         data.open_Obj[0].SetActive(true);
         data.close_Obj.Add(data.open_Obj[0]);
         data.open_Obj.Remove(data.open_Obj[0]);

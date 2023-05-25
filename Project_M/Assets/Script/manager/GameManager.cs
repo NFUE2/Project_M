@@ -10,10 +10,12 @@ public class GameManager : MonoBehaviour
 
     public GameObject player;
 
-    public bool player_survive = true;
-    public bool stage_clear = false;
+    private bool player_survive = true;
+    private bool stage_clear = false;
+    private bool game_end = false;
 
-    private int score;
+
+    private int score = 0;
 
     private void Awake()
     {
@@ -36,5 +38,7 @@ public class GameManager : MonoBehaviour
     public bool P_player_survive { get { return player_survive; } set { player_survive = value; } }
 
     public bool P_stage_clear { get { return stage_clear; } set { stage_clear = value; } }
+
+    public bool P_game_end { get { return game_end; } set { game_end = value; } }
 
 }
