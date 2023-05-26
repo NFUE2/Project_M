@@ -10,6 +10,11 @@ public class Stage_Manager : Manager
     public GameObject[] create_pos;
     public GameObject[] create_unit;
 
+    public AudioClip clear_voice;
+    AudioSource audio;
+
+    bool voicechk = false;
+
     GameObject score;
 
     public GameObject Info_txt;
@@ -19,8 +24,12 @@ public class Stage_Manager : Manager
 
     public override void Manager_Start()
     {
+        audio = GetComponent<AudioSource>();
+
         Info_txt.GetComponent<Animator>().enabled = true;
+
         score = GameObject.Find("Score");
+
         GameObject player = Instantiate(GameManager.instance.P_player);
         player.transform.position = new Vector3(0, 2, 0);
         player.name = "Player";
@@ -51,9 +60,20 @@ public class Stage_Manager : Manager
                 Info_txt.GetComponent<TextMeshProUGUI>().text = "GAME OVER";
 
             else if (GameObject.Find("Boss").GetComponent<Character>().data.hp <= 0.0f)
+            {
+                VoicePlay();
                 Info_txt.GetComponent<TextMeshProUGUI>().text = "MISSON COMPLETE";
+            }
 
             Info_txt.GetComponent<Animator>().SetTrigger("Info");
         }
+    }
+
+    void VoicePlay()
+    {
+        if (voicechk) return;
+        audio.clip = clear_voice;
+        audio.Play();
+        voicechk = true;
     }
 }

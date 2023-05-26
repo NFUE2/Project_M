@@ -9,12 +9,16 @@ public class Character_Controller : MonoBehaviour
     public GameObject fire_Pos; //원거리 캐릭터의 경우 투사체가 발사될 위치
     public GameObject projectile; //원거리 캐릭터의 투사체 종류
 
+    public AudioClip dead_sound;
+
     private void Start()
     {
         if (fire_Pos == null && projectile == null)
             character.initSetting(Vector3.zero, null);
         else
             character.initSetting(fire_Pos.transform.position, projectile); //각 캐릭터의 초기변수 세팅
+
+        
     }
 
     private void Update()
@@ -25,6 +29,9 @@ public class Character_Controller : MonoBehaviour
         //체력이 0이하로 떨어지면 사망하게함
         if (character.data.hp <= 0.0f)
         {
+            GetComponent<AudioSource>().clip = dead_sound;
+            GetComponent<AudioSource>().Play();
+
             character.data.animator.SetTrigger("Dead"); //애니메이션에서 사망처리
 
             if (gameObject.layer == 13) //플레이어가 사망할경우
@@ -34,6 +41,10 @@ public class Character_Controller : MonoBehaviour
             {
                 GameManager.instance.P_score = character.data.score;
                 gameObject.GetComponent<CapsuleCollider>().enabled = false;
+
+                if (gameObject.name == "Boss")
+                    GameManager.instance.P_stage_clear = true;
+
             }
             gameObject.GetComponent<Character_Controller>().enabled = false;
 

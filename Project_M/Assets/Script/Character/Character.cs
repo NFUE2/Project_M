@@ -38,11 +38,16 @@ public struct Data
     public bool player_search; //몬스터의 플레이어를 탐지유무
 
     public bool jumping; //점프중인지 아닌지 판별할 bool 변수
+
+    public AudioSource audio;
 }
 
 //전략패턴을 사용하기위한 부모클래스
 public abstract class Character : MonoBehaviour
 {
+    public AudioClip close_attack_sound;
+    public AudioClip long_range_sound;
+
     float jumpPower = 15.0f; //점프력을 정해둔 변수
     public Data data; //캐릭터의 데이터를 정할 변수
     Rigidbody rigidbody; //캐릭터의 점프를 위한 클래스 변수
@@ -52,6 +57,8 @@ public abstract class Character : MonoBehaviour
         //Rigidbody컴포넌트가 존재할경우
         if (GetComponent<Rigidbody>() != null) 
             rigidbody = GetComponent<Rigidbody>();
+
+        data.audio = GetComponent<AudioSource>();
     }
 
     //추상클래스를 생성하여 무조건 재정의 하도록 함,기본 정보를 설정하는 함수
@@ -86,6 +93,8 @@ public abstract class Character : MonoBehaviour
     //근접캐릭터들이 데미지를 주기 위한 함수
     public void Close_Range_Attack()
     {
+        
+
         //레이어에 따른 공격 타겟
         string layer = gameObject.layer == 12 ? "Player" : "Enemy";
         Vector3 defalutpos = transform.position + new Vector3(0, 1.5f, 0);
@@ -97,8 +106,13 @@ public abstract class Character : MonoBehaviour
             Quaternion.Euler(0, 0, 0),
             LayerMask.GetMask(layer))) //int로 사용하려햇으나 작동을 안했음,Enemy의 레이어는 12번
         {
+            if (close_attack_sound != null)
+            {
+                data.audio.clip = close_attack_sound;
+                data.audio.Play();
+            }
+
             //해당 개체의 스크립트를 참조하여 데미지(체력감소)
-            
             col.GetComponent<Character_Controller>().character.data.hp -= data.damage;
         }
     }

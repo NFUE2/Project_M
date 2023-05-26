@@ -28,18 +28,18 @@ public class SceneController : MonoBehaviour
                     StartCoroutine(Scene_Change(3.0f));
                 break;
             case 4:
-                if (GameManager.instance.P_game_end && !changing)
+                if (GameManager.instance.P_game_end && !changing) //게임이 끝나고 씬이 변경중이 아니라면 작동
                     StartCoroutine(Scene_Change(5.0f));
                 break;
 
             default:
-                if (!GameManager.instance.P_player_survive && !changing)
+                if ((!GameManager.instance.P_player_survive || GameManager.instance.P_stage_clear)&& !changing) //플레이어가 사망하고 씬이 변경중이 아니라면 작동
                     StartCoroutine(Scene_Change(5.0f));
                 break;
         }
     }
 
-    public bool Set_changing {set { changing = value; } }
+    public bool Set_changing {set { changing = value; } } //씬이 변경중인지 확인하는 변수프로퍼티
 
     //씬을 변경하기위한 함수,지연시간을 받고 그 뒤에 씬을 변경
     IEnumerator Scene_Change(float time)

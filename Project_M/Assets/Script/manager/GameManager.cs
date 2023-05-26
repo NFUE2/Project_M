@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
     private bool player_survive = true;
     private bool stage_clear = false;
     private bool game_end = false;
-
+    private bool boss = false;
 
     private int score = 0;
 
@@ -31,6 +31,9 @@ public class GameManager : MonoBehaviour
             Time.timeScale = 1.0f;
     }
 
+
+
+
     public int P_score { get { return score; } set { score += value; } }
 
     public GameObject P_player { get { return player; } set { player = value; } }
@@ -40,5 +43,6 @@ public class GameManager : MonoBehaviour
     public bool P_stage_clear { get { return stage_clear; } set { stage_clear = value; } }
 
     public bool P_game_end { get { return game_end; } set { game_end = value; } }
+    public bool P_boss { get { return boss; } set { boss = value; } }
 
 }

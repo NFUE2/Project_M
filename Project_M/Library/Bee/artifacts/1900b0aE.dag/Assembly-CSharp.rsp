@@ -387,6 +387,7 @@
 "Assets/Script/manager/Manager_Controller.cs"
 "Assets/Script/manager/Ranking_manager.cs"
 "Assets/Script/manager/SceneController.cs"
+"Assets/Script/manager/SoundManager.cs"
 "Assets/Script/manager/Stage_Manager.cs"
 "Assets/Script/manager/Tutorial_manager.cs"
 "Assets/Script/map_editor/Map_Editor.cs"
