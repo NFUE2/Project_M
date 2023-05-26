@@ -25,10 +25,4 @@ public class Viking : Character
         //부모의 Move함수를 작동
         base.Move();
     }
-
-    public override void Long_Range_Attack()
-    {
-        Close_Range_Attack();
-    }
-
 }

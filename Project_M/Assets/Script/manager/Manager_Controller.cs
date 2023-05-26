@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Manager_Controller : MonoBehaviour
 {
+    //매니저 클래스들의 작동을 위한 함수들
     public Manager manager;
 
     void Start()

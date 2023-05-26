@@ -72,23 +72,23 @@ public abstract class Character : MonoBehaviour
     //캐릭터가 공격할때 사용할 함수
     public void Attack()
     {
-        Ray ray = new Ray(transform.position, transform.position + transform.right);
-        bool check = Physics.Raycast(ray);
+        Ray ray = new Ray(transform.position, transform.position + transform.forward); 
+        bool check = Physics.Raycast(ray); //레이를 이용하여 일정범위 안에 적이 있는지 없는지 확인합니다.
 
-        data.attack_timing = 0.0f;
+        data.attack_timing = 0.0f; //공격을 했다면 쿨타임을 가집니다.
 
-        if (check)
+        if (check) //적이 가까울경우
             data.animator.SetTrigger("Close Attack");
 
-        else if(!check)
+        else if(!check) //적이 멀리있을경우
         {
             try
             {
-                data.animator.SetTrigger("Long Range Attack");
+                data.animator.SetTrigger("Long Range Attack"); 
             }
             catch
             {
-                data.animator.SetTrigger("Close Attack");
+                data.animator.SetTrigger("Close Attack"); //근접캐릭터는 원거리 공격을 할수 없으므로 작동
             }
         }
     }
@@ -110,9 +110,10 @@ public abstract class Character : MonoBehaviour
             Quaternion.Euler(0, 0, 0),
             LayerMask.GetMask(layer))) //int로 사용하려햇으나 작동을 안했음,Enemy의 레이어는 12번
         {
-            if (close_attack_sound != null)
+            if (close_attack_sound != null) //공격했을때 타격 사운드가 있다면 작동
             {
-                data.audio.clip = close_attack_sound;
+                //타격음 작동
+                data.audio.clip = close_attack_sound; 
                 data.audio.Play();
             }
 
@@ -126,7 +127,6 @@ public abstract class Character : MonoBehaviour
 
     }
 
-    //public virtual void Charging_Attack(GameObject projectile, GameObject fire_pos) { } //차징공격
     //점프를 구현한 함수 Move안에 구현하지 않은 이유는 몬스터들이 따로 사용하기위함
     IEnumerator Jump()
     {
@@ -198,11 +198,4 @@ public abstract class Character : MonoBehaviour
             data.animator.SetBool("IsGround", true);
         }
    }
-
-    private void OnDrawGizmos()
-    {
-        Vector3 defalutpos = transform.position + new Vector3(0, 1.5f, 0);
-        Gizmos.color = Color.red;
-        Gizmos.DrawLine(defalutpos , defalutpos + transform.forward * 2);
-    }
 }

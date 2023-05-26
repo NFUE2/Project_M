@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//전략패턴으로 캐릭터를 사용하기위한 클래스
 public class Character_Controller : MonoBehaviour
 {
     public Character character; //어떤 캐릭터를 받아올것인지에 대한 클래스변수
@@ -17,8 +19,6 @@ public class Character_Controller : MonoBehaviour
             character.initSetting(Vector3.zero, null);
         else
             character.initSetting(fire_Pos.transform.position, projectile); //각 캐릭터의 초기변수 세팅
-
-        
     }
 
     private void Update()
@@ -69,17 +69,6 @@ public class Character_Controller : MonoBehaviour
             //A키를 누르면 공격을함
             if (Input.GetAxis("Attack") == 1.0f && character.data.attack_delay < character.data.attack_timing)
                 character.Attack();
-
-            ////A키를 누르고 있으면 차징공격을 준비
-            //else if (Input.GetButton("Attack"))
-            //    character.data.charging += Time.deltaTime;
-
-            ////차징이 어느정도 되고 키를 떼면 차징공격이 나감
-            //else if(Input.GetButtonUp("Attack"))
-            //{
-            //    character.Charging_Attack(projectile, fire_Pos);
-            //    character.data.charging = 0.0f;
-            //}
         }
         else //몬스터의 경우 작동
             character.Monster_Action();

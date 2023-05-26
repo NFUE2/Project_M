@@ -34,9 +34,8 @@ public class SoundManager : Manager
                     SoundPlay(BGM.Length - 2, false);
 
                 else if (GameManager.instance.P_stage_clear)
-                {
                     SoundPlay(BGM.Length - 1, false);
-                }
+
                 else
                     SoundPlay(2, true);
                 break;
