@@ -27,7 +27,7 @@ public class SoundManager : Manager
                 SoundPlay(1, true);
                 break;
             case 3:
-                if (GameManager.instance.P_boss)
+                if (GameManager.instance.P_boss && GameManager.instance.P_player_survive)
                     SoundPlay(3, true);
 
                 else if (!GameManager.instance.P_player_survive)

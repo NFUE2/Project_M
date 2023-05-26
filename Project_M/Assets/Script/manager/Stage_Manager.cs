@@ -10,6 +10,8 @@ public class Stage_Manager : Manager
     public GameObject[] create_pos;
     public GameObject[] create_unit;
 
+    public BoxCollider boxCollider;
+
     public AudioClip clear_voice;
     AudioSource audio;
 
@@ -19,7 +21,7 @@ public class Stage_Manager : Manager
 
     public GameObject Info_txt;
 
-    [Range(0.0f, 20.0f)]
+    [Range(0.0f, 30.0f)]
     public float[] distance;
 
     public override void Manager_Start()
@@ -31,6 +33,7 @@ public class Stage_Manager : Manager
         score = GameObject.Find("Score");
 
         GameObject player = Instantiate(GameManager.instance.P_player);
+        player.transform.rotation = Quaternion.Euler(0, 90, 0);
         player.transform.position = new Vector3(0, 2, 0);
         player.name = "Player";
 
@@ -38,8 +41,7 @@ public class Stage_Manager : Manager
         {
             GameObject enemy = Instantiate(create_unit[i]);
 
-            if (enemy.GetComponent<Enemy1>() != null || enemy.GetComponent<Enemy2>() != null)
-                enemy.GetComponent<Character>().data.search_distance = distance[i];
+            enemy.GetComponent<Character>().data.search_distance = distance[i];
 
             if (i == create_pos.Length - 1)
                 enemy.gameObject.name = "Boss";
@@ -66,6 +68,13 @@ public class Stage_Manager : Manager
             }
 
             Info_txt.GetComponent<Animator>().SetTrigger("Info");
+        }
+
+        if (Vector3.Distance(GameObject.Find("Player").transform.position, GameObject.Find("Boss").transform.position) < 25.0f)
+        {
+            boxCollider.enabled = true;
+            if(!GameManager.instance.P_stage_clear)
+                GameManager.instance.P_boss = true;
         }
     }
 

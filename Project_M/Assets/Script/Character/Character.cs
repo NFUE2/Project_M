@@ -48,6 +48,9 @@ public abstract class Character : MonoBehaviour
     public AudioClip close_attack_sound;
     public AudioClip long_range_sound;
 
+    public GameObject close_attack_effect;
+    public GameObject long_range_effect;
+
     float jumpPower = 15.0f; //점프력을 정해둔 변수
     public Data data; //캐릭터의 데이터를 정할 변수
     Rigidbody rigidbody; //캐릭터의 점프를 위한 클래스 변수
@@ -93,7 +96,8 @@ public abstract class Character : MonoBehaviour
     //근접캐릭터들이 데미지를 주기 위한 함수
     public void Close_Range_Attack()
     {
-        
+        if (close_attack_effect != null)
+            close_attack_effect.SetActive(true);
 
         //레이어에 따른 공격 타겟
         string layer = gameObject.layer == 12 ? "Player" : "Enemy";
@@ -124,9 +128,11 @@ public abstract class Character : MonoBehaviour
 
     //public virtual void Charging_Attack(GameObject projectile, GameObject fire_pos) { } //차징공격
     //점프를 구현한 함수 Move안에 구현하지 않은 이유는 몬스터들이 따로 사용하기위함
-    private void Jump()
+    IEnumerator Jump()
     {
         data.jumping = true;
+
+        yield return new WaitForSeconds(0.1f);
         rigidbody.AddForce(Vector3.up * jumpPower, ForceMode.Impulse);
     }
 
@@ -150,7 +156,7 @@ public abstract class Character : MonoBehaviour
         {
             data.animator.SetTrigger("Jump");
             data.animator.SetBool("IsGround",false);
-            Jump();
+            StartCoroutine(Jump());
         }
 
         transform.position += (Vector3.right * H * data.speed) * Time.deltaTime;

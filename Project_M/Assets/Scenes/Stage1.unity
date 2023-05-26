@@ -1526,8 +1526,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: MISSON START
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 9a2157e1f9c4c4d38841fbb92558f587, type: 2}
-  m_sharedMaterial: {fileID: -6360588970910393389, guid: 9a2157e1f9c4c4d38841fbb92558f587, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e21d9fa883341484f8393b51730ca170, type: 2}
+  m_sharedMaterial: {fileID: -4918373443893110478, guid: e21d9fa883341484f8393b51730ca170, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4790,6 +4790,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de2ff3be59f397949ac1331b32804c8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  close_attack_sound: {fileID: 0}
+  long_range_sound: {fileID: 0}
+  close_attack_effect: {fileID: 0}
+  long_range_effect: {fileID: 0}
 --- !u!114 &731342794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4806,8 +4810,6 @@ MonoBehaviour:
   fire_Pos: {fileID: 0}
   projectile: {fileID: 0}
   dead_sound: {fileID: 0}
-  clost_attack_sound: {fileID: 0}
-  long_range_sound: {fileID: 0}
 --- !u!1 &738795418
 GameObject:
   m_ObjectHideFlags: 0
@@ -7451,6 +7453,7 @@ Transform:
   - {fileID: 767714808}
   - {fileID: 908088659}
   - {fileID: 247025737}
+  - {fileID: 1653033633}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7482,6 +7485,7 @@ MonoBehaviour:
   - {fileID: 1036188767206046, guid: 788e877e2b68b894e9ac2c9e3a6432d7, type: 3}
   - {fileID: 1404823412658210, guid: ddafa5fb4e3e8fb4aa97a7ea8e8b72d6, type: 3}
   - {fileID: 1358067463785014, guid: b941738035b4ac94ab1893344f06c05d, type: 3}
+  boxCollider: {fileID: 1653033634}
   clear_voice: {fileID: 8300000, guid: 3516a4e50251ed2499df82538fe2613b, type: 3}
   Info_txt: {fileID: 101701625}
   distance:
@@ -7491,10 +7495,7 @@ MonoBehaviour:
   - 10
   - 20
   - 20
-  - 0
-  - 0
-  - 0
-  - 0
+  - 25
 --- !u!114 &1361433729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9512,6 +9513,51 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.000001, y: 0.4324147, z: 5.000001}
   m_Center: {x: 0, y: -0.21620724, z: 0}
+--- !u!1 &1653033632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1653033633}
+  - component: {fileID: 1653033634}
+  m_Layer: 0
+  m_Name: Bossroom_wall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1653033633
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653033632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 160, y: 4.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1361433727}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1653033634
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653033632}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 10, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1664678575
 GameObject:
   m_ObjectHideFlags: 0
