@@ -15,7 +15,7 @@ D:/Program Files (x86)/GitHub/Project_M/Project_M
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58396
+54184
 Successfully changed project path to: D:/Program Files (x86)/GitHub/Project_M/Project_M
 D:/Program Files (x86)/GitHub/Project_M/Project_M
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Program Files (x86)/GitHub/Project_M/Project_M
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20924] Host "[IP] 112.185.117.230 [Port] 0 [Flags] 2 [Guid] 3662675247 [EditorId] 3662675247 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IS8DQUP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12796] Host "[IP] 112.185.117.230 [Port] 0 [Flags] 2 [Guid] 3603364802 [EditorId] 3603364802 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IS8DQUP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20924] Host "[IP] 112.185.117.230 [Port] 0 [Flags] 2 [Guid] 3662675247 [EditorId] 3662675247 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IS8DQUP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12796] Host "[IP] 112.185.117.230 [Port] 0 [Flags] 2 [Guid] 3603364802 [EditorId] 3603364802 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IS8DQUP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 176.22 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 157.63 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.23f1 (213b516bf396)
 [Subsystems] Discovering subsystems at path D:/Program Files (x86)/Unity/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
@@ -67,89 +67,89 @@ Initialize mono
 Mono path[0] = 'D:/Program Files (x86)/Unity/2021.3.23f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files (x86)/Unity/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files (x86)/Unity/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files (x86)/Unity/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.045653 seconds.
+Registered in 0.027492 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 178.00 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 125.27 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.389 seconds
+- Completed reload, in  0.900 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2390ms)
-		BeginReloadAssembly (214ms)
+	ReloadAssembly (900ms)
+		BeginReloadAssembly (149ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (883ms)
-			LoadAssemblies (206ms)
+		EndReloadAssembly (583ms)
+			LoadAssemblies (140ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
+			SetupTypeCache (134ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (514ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (339ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (178ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (243ms)
-				ProcessInitializeOnLoadMethodAttributes (70ms)
+				RefreshPlugins (125ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.027371 seconds.
+Registered in 0.019983 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\GitHub\Project_M\Project_M\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\GitHub\Project_M\Project_M\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 306.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 129.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  5.061 seconds
+- Completed reload, in  1.863 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5062ms)
-		BeginReloadAssembly (1437ms)
+	ReloadAssembly (1864ms)
+		BeginReloadAssembly (215ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (18ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (3383ms)
-			LoadAssemblies (1455ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1451ms)
+			LoadAssemblies (195ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (546ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (126ms)
-			SetupLoadedEditorAssemblies (2366ms)
+			SetupTypeCache (396ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (645ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (75ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (307ms)
-				BeforeProcessingInitializeOnLoad (319ms)
-				ProcessInitializeOnLoadAttributes (1533ms)
-				ProcessInitializeOnLoadMethodAttributes (93ms)
-				AfterProcessingInitializeOnLoad (38ms)
+				RefreshPlugins (130ms)
+				BeforeProcessingInitializeOnLoad (163ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (25ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3884 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 39 unused Assets / (114.2 KB). Loaded Objects now: 4349.
-Memory consumption went from 158.5 MB to 158.4 MB.
-Total: 6.017900 ms (FindLiveObjects: 0.350900 ms CreateObjectMapping: 0.253300 ms MarkObjects: 5.280000 ms  DeleteObjects: 0.132300 ms)
+Memory consumption went from 158.6 MB to 158.5 MB.
+Total: 3.201400 ms (FindLiveObjects: 0.323400 ms CreateObjectMapping: 0.257500 ms MarkObjects: 2.486300 ms  DeleteObjects: 0.132700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -164,136 +164,55 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 79378.643713 seconds.
-  path: Assets/Resources/Character/Player/Chr_Adventure_Viking_01.prefab
-  artifactKey: Guid(5d70fa8020733a24bb64b0b16d7fb8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Player/Chr_Adventure_Viking_01.prefab using Guid(5d70fa8020733a24bb64b0b16d7fb8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2f72b3e8318b3d63fee74f52f45666') in 0.287556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Resources/Character/Player/Thumnail
-  artifactKey: Guid(ad14887b9e75eb64483a0284e585c074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Player/Thumnail using Guid(ad14887b9e75eb64483a0284e585c074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c119a69fc9bef80f5b0a6820969c8079') in 0.009217 seconds 
+  Time since last request: 88549.850959 seconds.
+  path: Assets/Script/map_editor/Map_Editor.cs
+  artifactKey: Guid(abde755792f15ea4382f45daba1a061d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/map_editor/Map_Editor.cs using Guid(abde755792f15ea4382f45daba1a061d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe73105ed541399f66cba1fe696bd03') in 0.235533 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.034969 seconds.
+Registered in 0.026812 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\GitHub\Project_M\Project_M\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\GitHub\Project_M\Project_M\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.258 seconds
+- Completed reload, in  3.189 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3259ms)
-		BeginReloadAssembly (418ms)
+	ReloadAssembly (3190ms)
+		BeginReloadAssembly (395ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (72ms)
-		EndReloadAssembly (2594ms)
-			LoadAssemblies (345ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (2562ms)
+			LoadAssemblies (304ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (440ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (1075ms)
-			SetupLoadedEditorAssemblies (745ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (205ms)
-				ProcessInitializeOnLoadAttributes (425ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
-				AfterProcessingInitializeOnLoad (36ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 6.42 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3854 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (81.0 KB). Loaded Objects now: 4361.
-Memory consumption went from 172.4 MB to 172.3 MB.
-Total: 5.096800 ms (FindLiveObjects: 0.326700 ms CreateObjectMapping: 0.250900 ms MarkObjects: 4.408600 ms  DeleteObjects: 0.109400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 145.692269 seconds.
-  path: Assets/Resources/Character/Player/Thumnail/gunman.png
-  artifactKey: Guid(d4190a7fe8d0c2c46a3a1cabc3329f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Player/Thumnail/gunman.png using Guid(d4190a7fe8d0c2c46a3a1cabc3329f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df09103e04c956be9649831c95d7af0d') in 0.122717 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Resources/Character/Player/Thumnail/viking.png
-  artifactKey: Guid(2386d2c4a76084349a07253530ca63e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Player/Thumnail/viking.png using Guid(2386d2c4a76084349a07253530ca63e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ff85d6f54928a1151d28c0e1d5ed6a') in 0.041555 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Resources/Character/Player/Thumnail/magician.png
-  artifactKey: Guid(af594656382178b4e8af33f24b499f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Player/Thumnail/magician.png using Guid(af594656382178b4e8af33f24b499f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6334f0617c7254b719d87fb1828d9c7d') in 0.026947 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.040313 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\GitHub\Project_M\Project_M\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\GitHub\Project_M\Project_M\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.92 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  6.152 seconds
-Domain Reload Profiling:
-	ReloadAssembly (6153ms)
-		BeginReloadAssembly (1457ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (64ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (4ms)
-			CreateAndSetChildDomain (203ms)
-		EndReloadAssembly (4231ms)
-			LoadAssemblies (1171ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (2526ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (795ms)
+			SetupTypeCache (410ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (123ms)
+			SetupLoadedEditorAssemblies (1766ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (298ms)
-				ProcessInitializeOnLoadAttributes (390ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
-				AfterProcessingInitializeOnLoad (34ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (1515ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (32ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 8.00 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 5.14 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3854 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (81.1 KB). Loaded Objects now: 4367.
-Memory consumption went from 172.4 MB to 172.4 MB.
-Total: 7.180500 ms (FindLiveObjects: 0.383100 ms CreateObjectMapping: 0.228500 ms MarkObjects: 6.456400 ms  DeleteObjects: 0.111300 ms)
+Unloading 26 unused Assets / (81.3 KB). Loaded Objects now: 4352.
+Memory consumption went from 155.5 MB to 155.4 MB.
+Total: 3.932100 ms (FindLiveObjects: 0.287700 ms CreateObjectMapping: 0.235900 ms MarkObjects: 3.311800 ms  DeleteObjects: 0.095100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -308,684 +227,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.901540 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials
-  artifactKey: Guid(d211d37670e5b2945a43d5fdd06b60e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials using Guid(d211d37670e5b2945a43d5fdd06b60e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd73071d356a594d7062225d64473d48') in 0.032570 seconds 
+  Time since last request: 68.475791 seconds.
+  path: Assets/Resources/Tile/SM_Tile_Cube_Platform_01.prefab
+  artifactKey: Guid(7bb436572216b8645867bc7596c2d3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tile/SM_Tile_Cube_Platform_01.prefab using Guid(7bb436572216b8645867bc7596c2d3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f9d319deeeb80792e0c203ed2e12919') in 1.202338 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Env_Dungeon_Rocks_01.fbx
-  artifactKey: Guid(d55e6e50a9d1ac84cb5053298902f796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Env_Dungeon_Rocks_01.fbx using Guid(d55e6e50a9d1ac84cb5053298902f796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15bf7c1187128dec9a1fa8ee5e4a339b') in 0.204462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Viking_Dock_01.fbx
-  artifactKey: Guid(fb98039684e33124096ca9b2089ec85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Viking_Dock_01.fbx using Guid(fb98039684e33124096ca9b2089ec85f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaaeeb8c2ba0903325d9f5e524b8031e') in 0.046939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Samurai_Temple_02.fbx
-  artifactKey: Guid(99c222e4b95a7ab4cacd80f2a0fc8e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Samurai_Temple_02.fbx using Guid(99c222e4b95a7ab4cacd80f2a0fc8e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b334fb9141f7a6e19742f60d2a75e16') in 0.041480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Background_Mountains_01.fbx
-  artifactKey: Guid(3e124851748e40b47b12fea0000835e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Background_Mountains_01.fbx using Guid(3e124851748e40b47b12fea0000835e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46a0bce9918de609b0a3079c84b6b27') in 0.046068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Env_Dungeon_Crystal_01.fbx
-  artifactKey: Guid(601ed48928c62b24f97ebfbf686023a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Env_Dungeon_Crystal_01.fbx using Guid(601ed48928c62b24f97ebfbf686023a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cec37dee8d388527441c1896eb9a15') in 0.033879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Env_Dungeon_Bones_01.fbx
-  artifactKey: Guid(c1879ae6bb667f844b65fadded41f4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Env_Dungeon_Bones_01.fbx using Guid(c1879ae6bb667f844b65fadded41f4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dc683379fe913cc92e4b2541ddd6e30') in 0.035258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Adventure_Hut_01.fbx
-  artifactKey: Guid(5da86f33a88fa0549b1841b44bc73554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Adventure_Hut_01.fbx using Guid(5da86f33a88fa0549b1841b44bc73554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb160a4ef6180b1884b981e7344ff39e') in 0.096272 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Castle_04.fbx
-  artifactKey: Guid(dc7096c2ecfec96419517a66a2fcbda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Castle_04.fbx using Guid(dc7096c2ecfec96419517a66a2fcbda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb57a553e89ab18ae38b62fb294e1fb7') in 0.038123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/Props_Multiply.mat
-  artifactKey: Guid(0469b9c77bd65d34f9361865b530b4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/Props_Multiply.mat using Guid(0469b9c77bd65d34f9361865b530b4cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed48d25301d5d88f4934aadef0aca7b') in 0.990415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Env_Dirt_Pile_04.fbx
-  artifactKey: Guid(1ff0c816f09f3cf478b115bd7466b278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Env_Dirt_Pile_04.fbx using Guid(1ff0c816f09f3cf478b115bd7466b278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17f1da95d95e88dd97a85fcf81f5ba6') in 0.034493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Env_Dungeon_Crystal_02.fbx
-  artifactKey: Guid(c1965b7c7ce26774c860e2d72cc81aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Env_Dungeon_Crystal_02.fbx using Guid(c1965b7c7ce26774c860e2d72cc81aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2750e430e782a2ebaf447ebd07942e6') in 0.026268 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Castle_05.fbx
-  artifactKey: Guid(a172362ae32cc3844812becbd6e99374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Castle_05.fbx using Guid(a172362ae32cc3844812becbd6e99374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d305362c5ef9e1c605abd7bc896f52') in 0.034566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Viking_House_03.fbx
-  artifactKey: Guid(9992cfa612cf0464e8993f981779d787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Viking_House_03.fbx using Guid(9992cfa612cf0464e8993f981779d787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80af7978d9bb1a854af59de661b434b2') in 0.030105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/FX_Ring_Plane.fbx
-  artifactKey: Guid(2cf1e085c2dae5144b2f9502f60a2f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/FX_Ring_Plane.fbx using Guid(2cf1e085c2dae5144b2f9502f60a2f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9097967f83ad2791f84eddeb9d3bf283') in 0.048042 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirate_Fort_03.fbx
-  artifactKey: Guid(1917b6036c09bb34ebf56ec40fd89de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirate_Fort_03.fbx using Guid(1917b6036c09bb34ebf56ec40fd89de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b521ff55167b491aca214f4059efae07') in 0.038600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirate_Shack_02.fbx
-  artifactKey: Guid(1e15669d100fe2f4ab83dec84cb47d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirate_Shack_02.fbx using Guid(1e15669d100fe2f4ab83dec84cb47d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '524c197d22950455062e068bffdefae7') in 0.035350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Western_Building_01.fbx
-  artifactKey: Guid(7cf735e743889004797641afc6a1d9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Western_Building_01.fbx using Guid(7cf735e743889004797641afc6a1d9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4830794e7ce83be773ee023b3ef6398') in 0.041945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_House_01.fbx
-  artifactKey: Guid(d09cc3e5099ce004aad464eda0cdca36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_House_01.fbx using Guid(d09cc3e5099ce004aad464eda0cdca36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97b9ccbeffb0948e71181281cd50aa82') in 0.034223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Castle_Flag_01.fbx
-  artifactKey: Guid(908515d0a16429949ab7f93dfe0bdf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Castle_Flag_01.fbx using Guid(908515d0a16429949ab7f93dfe0bdf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34ca92a14acebf90f84f09cbfe48300') in 0.035723 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Samurai_Arch_01.fbx
-  artifactKey: Guid(d5fb3f2791b703e4c9f93e838561b488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Samurai_Arch_01.fbx using Guid(d5fb3f2791b703e4c9f93e838561b488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b60d885aecd3afc99bf7947ae6472c9') in 0.059976 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Western_Water_Tower_01.fbx
-  artifactKey: Guid(da3021b4a79f5b846b0703a9973cb65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Western_Water_Tower_01.fbx using Guid(da3021b4a79f5b846b0703a9973cb65c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62d1b94e7ee39407729de601b968fed') in 0.055507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Adventure_House_02.fbx
-  artifactKey: Guid(2a5ffec0894ba954db4fa28238fdb154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Adventure_House_02.fbx using Guid(2a5ffec0894ba954db4fa28238fdb154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65897d123ef333752ce5b412648f1c78') in 0.039834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirates_House_03.fbx
-  artifactKey: Guid(ffd8b72787866f340a4d9387a0996e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirates_House_03.fbx using Guid(ffd8b72787866f340a4d9387a0996e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d99d697e1ea16b8884157a68531e292') in 0.034885 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirate_Mansion_01.fbx
-  artifactKey: Guid(bc6fe56905c59664897bdf44491c55a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirate_Mansion_01.fbx using Guid(bc6fe56905c59664897bdf44491c55a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a89a31c7012a1c7a9416f093a523a16') in 0.028246 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/Mountains_03.mat
-  artifactKey: Guid(bfda41e66ee06394088603c0c71de5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/Mountains_03.mat using Guid(bfda41e66ee06394088603c0c71de5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89254203aee7db456417b552581d4332') in 0.027794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/Props_Overlay.mat
-  artifactKey: Guid(eaf567fbce0f0ae43aec80d3bb6f3c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/Props_Overlay.mat using Guid(eaf567fbce0f0ae43aec80d3bb6f3c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16c623d0c0e7ddc82953eea90c416b5') in 1.656533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Samurai_House_01.fbx
-  artifactKey: Guid(6980727caa3674742a336d425e8754a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Samurai_House_01.fbx using Guid(6980727caa3674742a336d425e8754a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccb1306008c52c05e7d919ed92b13d9') in 0.034822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/FX_WaterFall_Water.mat
-  artifactKey: Guid(79490a86996fc864c9f1132ea1765a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/FX_WaterFall_Water.mat using Guid(79490a86996fc864c9f1132ea1765a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699bb87721f701651781ac5e1333e02a') in 0.194675 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_06.mat
-  artifactKey: Guid(b62ce8a0fd53b7d48853bb1e75a94b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_06.mat using Guid(b62ce8a0fd53b7d48853bb1e75a94b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35459f04a4afa99746f8bc7200e7a88b') in 0.033838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Viking_Hut_01.fbx
-  artifactKey: Guid(4b65c658510d61c47ab00a3621391fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Viking_Hut_01.fbx using Guid(4b65c658510d61c47ab00a3621391fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b385a06502b156d883212186caf02b') in 0.030751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/FX_Smoke.mat
-  artifactKey: Guid(670aee1c038dd464aa171686710d9791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/FX_Smoke.mat using Guid(670aee1c038dd464aa171686710d9791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a30ab5953223a35ffd7c9c94828132') in 0.026822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Viking_House_02.fbx
-  artifactKey: Guid(06acb062d5f297644aff0e0a1aa82926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Viking_House_02.fbx using Guid(06acb062d5f297644aff0e0a1aa82926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a805f329ec46d3d280331c7c955329e1') in 0.033735 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Env_Dirt_Pile_02.fbx
-  artifactKey: Guid(08bd19d6ecf673541800b5d44a0cda0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Env_Dirt_Pile_02.fbx using Guid(08bd19d6ecf673541800b5d44a0cda0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a833366ee40cf730d3322b104139de14') in 0.031901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Samurai_House_02.fbx
-  artifactKey: Guid(2475b99ccb71678499ead968b4dc9b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Samurai_House_02.fbx using Guid(2475b99ccb71678499ead968b4dc9b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c189331fad64707cf6ef22a480c59c3e') in 0.058982 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirate_Fort_04.fbx
-  artifactKey: Guid(0e45aaf305436044fabaa2b5eb25bc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirate_Fort_04.fbx using Guid(0e45aaf305436044fabaa2b5eb25bc73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21d7daf85e1bd2ee402a64d260f59986') in 0.035074 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/FX_WaterFall.mat
-  artifactKey: Guid(b94c4b63b24989147959a65b3f623d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/FX_WaterFall.mat using Guid(b94c4b63b24989147959a65b3f623d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5208dd94ffa24cbc71d55300e8c798ed') in 0.046855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Resources/Character/enemy/Enemy2-2.prefab
-  artifactKey: Guid(a0c4892d57afd4549ba85c29a45adad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/enemy/Enemy2-2.prefab using Guid(a0c4892d57afd4549ba85c29a45adad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d73732081d00a75b43eb324ed32b776') in 0.061756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Church_01.fbx
-  artifactKey: Guid(29d3085117772ea4bb4d662f90a00e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Church_01.fbx using Guid(29d3085117772ea4bb4d662f90a00e99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38c11fbee2c6a6d7ad9d3ac37e431a90') in 0.033481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Western_Building_02.fbx
-  artifactKey: Guid(5b4cbf2e4fcf3624b84cb8201d495149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Western_Building_02.fbx using Guid(5b4cbf2e4fcf3624b84cb8201d495149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669a9a42a991885e51f90acfc82b7253') in 0.034450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/FX_Blank_Dark.mat
-  artifactKey: Guid(e24481fba7c0c79419f55683183d422c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/FX_Blank_Dark.mat using Guid(e24481fba7c0c79419f55683183d422c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139cee168952ba9c23945de799cdef64') in 0.045264 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirate_Fort_01.fbx
-  artifactKey: Guid(a4b8af03560538742b04bae07c1e6497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirate_Fort_01.fbx using Guid(a4b8af03560538742b04bae07c1e6497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4859aa0eeff8006e06eb66872d411cc6') in 0.044209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Western_Church_01.fbx
-  artifactKey: Guid(180a0ee495f12f24d92e6bdf627632e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Western_Church_01.fbx using Guid(180a0ee495f12f24d92e6bdf627632e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51114e223888de7fa69bd501354cd19e') in 0.053611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Castle_07.fbx
-  artifactKey: Guid(161b280511cf58949879fa4f9dbb81bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Castle_07.fbx using Guid(161b280511cf58949879fa4f9dbb81bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f83a5ece32bd0056ef20e4ed86cbb0') in 0.035857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/Background_02.mat
-  artifactKey: Guid(9664b5aac3a053b49a8660f3eb88c8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/Background_02.mat using Guid(9664b5aac3a053b49a8660f3eb88c8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827bdbd72eaef463990e553b82376a75') in 0.182040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_02.mat
-  artifactKey: Guid(9b2b56775f50cfe4a9b77a3c83af5ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_02.mat using Guid(9b2b56775f50cfe4a9b77a3c83af5ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba5da31d9fc39b5e71f2312c4abb9d5e') in 0.035979 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Samurai_Temple_01.fbx
-  artifactKey: Guid(6a9ced45f71b0bf429415814d8d48101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Samurai_Temple_01.fbx using Guid(6a9ced45f71b0bf429415814d8d48101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e990bf322759e34633d80c64d1a2f233') in 0.035433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/Background_01.mat
-  artifactKey: Guid(c1addfde6bc90934bbbbd882e53130a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/Background_01.mat using Guid(c1addfde6bc90934bbbbd882e53130a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6149996649984370da42f65df3d7daac') in 0.028987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirate_Shack_01.fbx
-  artifactKey: Guid(9a3d044a785f37244a5112df646e5b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirate_Shack_01.fbx using Guid(9a3d044a785f37244a5112df646e5b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2114b5a82c1a4b5a607c7fa990c2fc96') in 0.033257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Env_Dungeon_Rocks_02.fbx
-  artifactKey: Guid(e254b7ffd15291041a079acf064ac843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Env_Dungeon_Rocks_02.fbx using Guid(e254b7ffd15291041a079acf064ac843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76478a54a8926a1ab06204952fb4c6a1') in 0.027157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_03.mat
-  artifactKey: Guid(d906c091ff8fb854ba970209226cd22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_03.mat using Guid(d906c091ff8fb854ba970209226cd22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a78303a4d7787ce5f25e6581356386') in 0.031035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Background_Volcanic_03.fbx
-  artifactKey: Guid(06651b176aeaba44f935fd0b7191286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Background_Volcanic_03.fbx using Guid(06651b176aeaba44f935fd0b7191286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2361f3636f28d411a9a719b78dd665c9') in 0.030688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Castle_02.fbx
-  artifactKey: Guid(b4b127ca8eb8c3846bc337a96022847b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Castle_02.fbx using Guid(b4b127ca8eb8c3846bc337a96022847b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1ef44ea00ffa177fb7b7ccf2e8fd5b') in 0.034266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Env_Dungeon_Mushroom_02.fbx
-  artifactKey: Guid(2ca79d487b8da7e44974b217e52ecaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Env_Dungeon_Mushroom_02.fbx using Guid(2ca79d487b8da7e44974b217e52ecaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6eb43776e37ba35cdb6aa8ab4d57ac1') in 0.031937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Tent_01.fbx
-  artifactKey: Guid(5fb02d9ec4a0440499e42a0366b5c20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Tent_01.fbx using Guid(5fb02d9ec4a0440499e42a0366b5c20c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cab5de7d62ec82ab6ba8b46d1886880') in 0.028104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirates_House_01.fbx
-  artifactKey: Guid(525b693a6c9648b42a8f9fcdcd7b714e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirates_House_01.fbx using Guid(525b693a6c9648b42a8f9fcdcd7b714e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ae15861157daef5092d76d5a1eacba') in 0.030439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirate_Tower_01.fbx
-  artifactKey: Guid(d8c560f5612069349a7f72e58eefa39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirate_Tower_01.fbx using Guid(d8c560f5612069349a7f72e58eefa39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8ad471de8f03216bbae1714a3b334fe') in 0.028967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Castle_01.fbx
-  artifactKey: Guid(1df73d5ac07779d48913dbb8449387ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Castle_01.fbx using Guid(1df73d5ac07779d48913dbb8449387ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950f24dd529bf7dca3425a5960522479') in 0.027925 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Env_Dirt_Pile_03.fbx
-  artifactKey: Guid(a52346a8c2dbb444b9695ad6e7709e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Env_Dirt_Pile_03.fbx using Guid(a52346a8c2dbb444b9695ad6e7709e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0768a6e404d92ad46c9eb43abb72161') in 0.030016 seconds 
+  Time since last request: 0.000265 seconds.
+  path: Assets/Script/map_editor/Map_Editor.cs
+  artifactKey: Guid(abde755792f15ea4382f45daba1a061d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/map_editor/Map_Editor.cs using Guid(abde755792f15ea4382f45daba1a061d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978f1489eff33f0947039d9b8a80bfe0') in 0.005350 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Background_Ice_02.fbx
-  artifactKey: Guid(a7b95309243e40b4480f3f6072958635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Background_Ice_02.fbx using Guid(a7b95309243e40b4480f3f6072958635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d627c3bee266e790e15a48f450571a') in 0.033806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/FX_Ring_Semi.mat
-  artifactKey: Guid(3a217b6e8510ca54e966a1b80ca7215a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/FX_Ring_Semi.mat using Guid(3a217b6e8510ca54e966a1b80ca7215a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb76172076a5c75c3f027f326adf9e3a') in 0.044576 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Flag_04.fbx
-  artifactKey: Guid(31a294a924e79a948a6541510142f5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Flag_04.fbx using Guid(31a294a924e79a948a6541510142f5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d8f78b8916290367b3b844aea94602') in 0.037625 seconds 
+  path: Assets/Resources/Tile/SM_Tile_Cube_Column_01.prefab
+  artifactKey: Guid(d03a051782e9ca244a00d021edb5cd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tile/SM_Tile_Cube_Column_01.prefab using Guid(d03a051782e9ca244a00d021edb5cd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762daae73da40b9a6df5a2f5aa6d09fb') in 0.040267 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Env_Dirt_Pile_01.fbx
-  artifactKey: Guid(e322bce1b0aa2394aa3ab34d25a5a554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Env_Dirt_Pile_01.fbx using Guid(e322bce1b0aa2394aa3ab34d25a5a554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8dfdf3a7d4db5489d19603b141e2d98') in 0.037585 seconds 
+  path: Assets/Resources/Tile/SM_Tile_Cube_Flat_01.prefab
+  artifactKey: Guid(4b0dd8d9ce8ef2b4ba4212934b7dc629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Tile/SM_Tile_Cube_Flat_01.prefab using Guid(4b0dd8d9ce8ef2b4ba4212934b7dc629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608c791a1abb4501ec2d2262163ad3d1') in 0.027642 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Resources/Character/enemy/Boss.prefab
-  artifactKey: Guid(b941738035b4ac94ab1893344f06c05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/enemy/Boss.prefab using Guid(b941738035b4ac94ab1893344f06c05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497daa415a8197a75b7628f490d807f3') in 0.083777 seconds 
+  Time since last request: 645.635120 seconds.
+  path: Assets/Script/Stage_Camera.cs
+  artifactKey: Guid(56a8f34d251490b40bdc2edaf33b3740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Stage_Camera.cs using Guid(56a8f34d251490b40bdc2edaf33b3740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b4b167a046399e5c19f600c5df92b4') in 0.018195 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Background_Ice_03.fbx
-  artifactKey: Guid(d481ac874fe79c0438b5e3e6c7b18eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Background_Ice_03.fbx using Guid(d481ac874fe79c0438b5e3e6c7b18eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b02e55e0e19cc166c332a01fb7a1734') in 1.116781 seconds 
+  Time since last request: 0.338641 seconds.
+  path: Assets/Script/Select_Character.cs
+  artifactKey: Guid(831263702d73db444956eb0dcad97c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/Select_Character.cs using Guid(831263702d73db444956eb0dcad97c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92b72f66f930e9bec005c85a223dcca') in 0.023149 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_House_03.fbx
-  artifactKey: Guid(f3ee07bab3c05df478c29fae3936f661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_House_03.fbx using Guid(f3ee07bab3c05df478c29fae3936f661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80487097fe390498c6b2b199595f9c8d') in 0.080786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001514 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Tent_02.fbx
-  artifactKey: Guid(66490afef838c1a408d3421d5bdc6039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Tent_02.fbx using Guid(66490afef838c1a408d3421d5bdc6039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bab036029ded0768b45db76a546398') in 0.034909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/Water.mat
-  artifactKey: Guid(98c3dd6fc0665414fb0471ba970b98a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/Water.mat using Guid(98c3dd6fc0665414fb0471ba970b98a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ad674c14e59a1b3179e3e1c7ab5a5d') in 0.047740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Dungeon_Crypt_01.fbx
-  artifactKey: Guid(4cceaf64cd697cc45bb4a0fa41219f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Dungeon_Crypt_01.fbx using Guid(4cceaf64cd697cc45bb4a0fa41219f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5825d1482a91e2b293b9f641f4ff3e6b') in 0.042933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Env_Generic_Bush_02.fbx
-  artifactKey: Guid(36960dd260de9924ab1f62cc091ec381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Env_Generic_Bush_02.fbx using Guid(36960dd260de9924ab1f62cc091ec381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da48237a76947c6bc503fc295fc4e9b3') in 0.070686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Resources/Character/enemy/Enemy1-1.prefab
-  artifactKey: Guid(ddafa5fb4e3e8fb4aa97a7ea8e8b72d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/enemy/Enemy1-1.prefab using Guid(ddafa5fb4e3e8fb4aa97a7ea8e8b72d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1151e95671945080a9031124e3f86fb6') in 0.077515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Background_Mountains_03.fbx
-  artifactKey: Guid(133783eb55eedb744b49e3a730f412a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Background_Mountains_03.fbx using Guid(133783eb55eedb744b49e3a730f412a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6838d510c7e777242649d8a5e66d64ba') in 0.043497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Castle_03.fbx
-  artifactKey: Guid(43b351d5118b39440a48e02c90819154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Castle_03.fbx using Guid(43b351d5118b39440a48e02c90819154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5cbc676654b6acbec3038bd250d6cd0') in 0.046683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Castle_06.fbx
-  artifactKey: Guid(a82dc7f76a390ab478dbe3741ade5a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Castle_06.fbx using Guid(a82dc7f76a390ab478dbe3741ade5a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c17c9d3ec21190d2a4d70977d97988e9') in 0.063702 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Background_Desert_01.fbx
-  artifactKey: Guid(d64431a6500397c41a3e0937869d56ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Background_Desert_01.fbx using Guid(d64431a6500397c41a3e0937869d56ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f436616a40f2663ba2e7cf5eb8bf85') in 0.059403 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_House_02.fbx
-  artifactKey: Guid(111892847f104294caaef59df19b2e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_House_02.fbx using Guid(111892847f104294caaef59df19b2e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92f7c83bab1aa87dc769ddbed37275d') in 0.064373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Background_Volcanic_02.fbx
-  artifactKey: Guid(0347c2a652bd34848bfabbb9166c720d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Background_Volcanic_02.fbx using Guid(0347c2a652bd34848bfabbb9166c720d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1226962b58218d0b5037334b20600586') in 0.050477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Env_Dungeon_Mushroom_01.fbx
-  artifactKey: Guid(9ae701c0e774a0640b4f2c462c96aea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Env_Dungeon_Mushroom_01.fbx using Guid(9ae701c0e774a0640b4f2c462c96aea4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a481958d7afe9900732fa9812845bf6a') in 0.051767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/FX_Ring.mat
-  artifactKey: Guid(4e019fcf2b2348743a3284e4c3b505e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/FX_Ring.mat using Guid(4e019fcf2b2348743a3284e4c3b505e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7b27652a23437a92e512e350f75784') in 0.041790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Background_Mountains_02.fbx
-  artifactKey: Guid(d9c6618e84d09614ca9155e5bfb8bf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Background_Mountains_02.fbx using Guid(d9c6618e84d09614ca9155e5bfb8bf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6b48d7fdfd23569d6f3abcb72eee6b') in 0.053857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirates_House_02.fbx
-  artifactKey: Guid(ad18ab158f56a5f42b2412b8488aa1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirates_House_02.fbx using Guid(ad18ab158f56a5f42b2412b8488aa1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c512f96e4515022825efb865929a9ec') in 0.064425 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Env_Dungeon_Skull_01.fbx
-  artifactKey: Guid(edc8b704ad4bef0418fb08f461c32bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Env_Dungeon_Skull_01.fbx using Guid(edc8b704ad4bef0418fb08f461c32bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedd47599ec7e5c67584e0a984b8788f') in 0.105462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Adventure_House_01.fbx
-  artifactKey: Guid(c5d533bf0d364124fb34b6495c46dc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Adventure_House_01.fbx using Guid(c5d533bf0d364124fb34b6495c46dc87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c7baf4007e8af8f48a3f4b9e8d6463') in 0.047838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/Props_Add.mat
-  artifactKey: Guid(f9609e91fdc98a64a89f2b9203c83ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/Props_Add.mat using Guid(f9609e91fdc98a64a89f2b9203c83ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bddae62e127503bcc6639a7aeb5e8e') in 0.306973 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Adventure_Wall_01.fbx
-  artifactKey: Guid(5eb6d5c49fd1e9b49aa9ba32056b531d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Adventure_Wall_01.fbx using Guid(5eb6d5c49fd1e9b49aa9ba32056b531d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd545361b471a3ea0686bd9e9d4a611ef') in 0.066931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Background_Desert_03.fbx
-  artifactKey: Guid(dd2955ee35969d24a98ec1e2dfd6fa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Background_Desert_03.fbx using Guid(dd2955ee35969d24a98ec1e2dfd6fa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d2b977b34971e0a6db6d4d534263db') in 0.042252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/FX_Blank_Light.mat
-  artifactKey: Guid(814249beff237e5468533f64e38ec733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/FX_Blank_Light.mat using Guid(814249beff237e5468533f64e38ec733) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2a62d96e74aa074ee705b918ecfe5e') in 0.105837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Castle_Flag_02.fbx
-  artifactKey: Guid(2f48c3170c075d9448f41af419468da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Knights_Castle_Flag_02.fbx using Guid(2f48c3170c075d9448f41af419468da6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af49abf4a643103d3fd92c49d502bfd') in 0.032466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Viking_Hut_02.fbx
-  artifactKey: Guid(23d95093c28248d458805650386f749e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Viking_Hut_02.fbx using Guid(23d95093c28248d458805650386f749e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d5cb14921742d4978d3991c71ed9d1') in 0.040012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Env_Generic_Barrel_01.fbx
-  artifactKey: Guid(07db00a232f9ae34ba8e34c76856fbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Env_Generic_Barrel_01.fbx using Guid(07db00a232f9ae34ba8e34c76856fbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d9acd628d8dc000fd4ea225ffa1a60') in 0.074734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Background_Volcanic_01.fbx
-  artifactKey: Guid(524d985c1870e7f48b1ced0e56c69952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Background_Volcanic_01.fbx using Guid(524d985c1870e7f48b1ced0e56c69952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a57df3f58d547937e839a6f3e89b4c') in 0.046097 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonMini_Fantasy/Models
-  artifactKey: Guid(50269f0dfddf5dd459042cd04b5b7813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models using Guid(50269f0dfddf5dd459042cd04b5b7813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf555dfefd832dec55a84785e83dd68') in 0.010294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Resources/Character/enemy/Enemy2-1.prefab
-  artifactKey: Guid(788e877e2b68b894e9ac2c9e3a6432d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/enemy/Enemy2-1.prefab using Guid(788e877e2b68b894e9ac2c9e3a6432d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6912e98d9dd2ba276b5612fd3c5d1fd6') in 0.069458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirate_Fort_02.fbx
-  artifactKey: Guid(dbf019ff349ab9740b7c4072fa2bfb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Models/SM_Bld_Pirate_Fort_02.fbx using Guid(dbf019ff349ab9740b7c4072fa2bfb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a13590555e9e7417849f6f1a96c66c') in 0.038874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_05.mat
-  artifactKey: Guid(18f0a20f416c50c45af61f1e03fb57bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_05.mat using Guid(18f0a20f416c50c45af61f1e03fb57bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0293dd56d028fbfce22230cc619ec2f') in 0.034532 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_01.mat
-  artifactKey: Guid(a16b7b85a356b7d469067849a165dcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/PolygonMinis_Fantasy_01.mat using Guid(a16b7b85a356b7d469067849a165dcff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfd2f4931f9b6e5a2b521f94b5919ef') in 0.036400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Resources/Character/enemy/Enemy1-3.prefab
-  artifactKey: Guid(83452ac6e173bae459a471848140d011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/enemy/Enemy1-3.prefab using Guid(83452ac6e173bae459a471848140d011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c78cc3b2afdeaa2d9dc88fa5094498c') in 0.049056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/PolygonMini_Fantasy/Materials/Demo_Lava.mat
-  artifactKey: Guid(7c2e12a4e0f9709448ad0f2c50e3e80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMini_Fantasy/Materials/Demo_Lava.mat using Guid(7c2e12a4e0f9709448ad0f2c50e3e80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76fbbff55b4256895b8f3f9d3488ac2') in 1.378948 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Resources/Character/Player/Thumnail/1.viking.png
-  artifactKey: Guid(2386d2c4a76084349a07253530ca63e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Player/Thumnail/1.viking.png using Guid(2386d2c4a76084349a07253530ca63e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad38b40e0dd6d2117b4b007c00a9e401') in 0.045129 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.114731 seconds.
-  path: Assets/Resources/Character/Player/Thumnail/2.magician.png
-  artifactKey: Guid(af594656382178b4e8af33f24b499f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Player/Thumnail/2.magician.png using Guid(af594656382178b4e8af33f24b499f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c290b370b03f9b3cebd4634fa495902') in 0.021275 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.165205 seconds.
-  path: Assets/Resources/Character/Player/Thumnail/3.gunman.png
-  artifactKey: Guid(d4190a7fe8d0c2c46a3a1cabc3329f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Character/Player/Thumnail/3.gunman.png using Guid(d4190a7fe8d0c2c46a3a1cabc3329f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273070c444e5f22f985e8cb18f3a1145') in 0.052734 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.051081 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\GitHub\Project_M\Project_M\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Program Files (x86)\GitHub\Project_M\Project_M\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.38 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in 10.170 seconds
-Domain Reload Profiling:
-	ReloadAssembly (10173ms)
-		BeginReloadAssembly (1428ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (424ms)
-		EndReloadAssembly (8337ms)
-			LoadAssemblies (989ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (3098ms)
-			ReleaseScriptCaches (5ms)
-			RebuildScriptCaches (391ms)
-			SetupLoadedEditorAssemblies (3875ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (41ms)
-				SetLoadedEditorAssemblies (5ms)
-				RefreshPlugins (3ms)
-				BeforeProcessingInitializeOnLoad (382ms)
-				ProcessInitializeOnLoadAttributes (2605ms)
-				ProcessInitializeOnLoadMethodAttributes (533ms)
-				AfterProcessingInitializeOnLoad (306ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (96ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 15.98 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3854 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (81.5 KB). Loaded Objects now: 4408.
-Memory consumption went from 173.6 MB to 173.5 MB.
-Total: 6.943100 ms (FindLiveObjects: 0.479300 ms CreateObjectMapping: 0.226200 ms MarkObjects: 6.122600 ms  DeleteObjects: 0.114000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 15.76 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (78.8 KB). Loaded Objects now: 4408.
-Memory consumption went from 97.0 MB to 96.9 MB.
-Total: 4.155100 ms (FindLiveObjects: 0.555900 ms CreateObjectMapping: 0.280400 ms MarkObjects: 3.180500 ms  DeleteObjects: 0.137300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 5.845533 seconds.
+  path: Assets/Script/manager/Ranking_manager.cs
+  artifactKey: Guid(9a7a7901b86c81542835d2749611a129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/manager/Ranking_manager.cs using Guid(9a7a7901b86c81542835d2749611a129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55cb930de7d82dca261e49ca78e3b70') in 0.012747 seconds 
